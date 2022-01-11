@@ -1,5 +1,5 @@
-var Charities = artifacts.require("./Charities.sol");
+var Donation = artifacts.require("./Donation.sol");
 
 module.exports = function(deployer) {
-  deployer.deploy(Charities);
+  deployer.deploy(Donation);
 };
