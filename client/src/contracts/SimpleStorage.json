@@ -43,6 +43,7 @@
     "absolutePath": "project:/contracts/SimpleStorage.sol",
     "exportedSymbols": {
       "SimpleStorage": [
+<<<<<<< HEAD
         263
       ]
     },
@@ -51,6 +52,16 @@
     "nodes": [
       {
         "id": 242,
+=======
+        220
+      ]
+    },
+    "id": 221,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 199,
+>>>>>>> 9667ddf (Added donation contract)
         "literals": [
           "solidity",
           ">=",
@@ -69,19 +80,32 @@
         "contractKind": "contract",
         "documentation": null,
         "fullyImplemented": true,
+<<<<<<< HEAD
         "id": 263,
         "linearizedBaseContracts": [
           263
+=======
+        "id": 220,
+        "linearizedBaseContracts": [
+          220
+>>>>>>> 9667ddf (Added donation contract)
         ],
         "name": "SimpleStorage",
         "nodeType": "ContractDefinition",
         "nodes": [
           {
             "constant": false,
+<<<<<<< HEAD
             "id": 244,
             "name": "storedData",
             "nodeType": "VariableDeclaration",
             "scope": 263,
+=======
+            "id": 201,
+            "name": "storedData",
+            "nodeType": "VariableDeclaration",
+            "scope": 220,
+>>>>>>> 9667ddf (Added donation contract)
             "src": "98:15:2",
             "stateVariable": true,
             "storageLocation": "default",
@@ -90,7 +114,11 @@
               "typeString": "uint256"
             },
             "typeName": {
+<<<<<<< HEAD
               "id": 243,
+=======
+              "id": 200,
+>>>>>>> 9667ddf (Added donation contract)
               "name": "uint",
               "nodeType": "ElementaryTypeName",
               "src": "98:4:2",
@@ -104,25 +132,41 @@
           },
           {
             "body": {
+<<<<<<< HEAD
               "id": 253,
+=======
+              "id": 210,
+>>>>>>> 9667ddf (Added donation contract)
               "nodeType": "Block",
               "src": "148:27:2",
               "statements": [
                 {
                   "expression": {
                     "argumentTypes": null,
+<<<<<<< HEAD
                     "id": 251,
+=======
+                    "id": 208,
+>>>>>>> 9667ddf (Added donation contract)
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
                     "lValueRequested": false,
                     "leftHandSide": {
                       "argumentTypes": null,
+<<<<<<< HEAD
                       "id": 249,
                       "name": "storedData",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
                       "referencedDeclaration": 244,
+=======
+                      "id": 206,
+                      "name": "storedData",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 201,
+>>>>>>> 9667ddf (Added donation contract)
                       "src": "155:10:2",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
@@ -133,11 +177,19 @@
                     "operator": "=",
                     "rightHandSide": {
                       "argumentTypes": null,
+<<<<<<< HEAD
                       "id": 250,
                       "name": "x",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
                       "referencedDeclaration": 246,
+=======
+                      "id": 207,
+                      "name": "x",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 203,
+>>>>>>> 9667ddf (Added donation contract)
                       "src": "168:1:2",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
@@ -150,29 +202,48 @@
                       "typeString": "uint256"
                     }
                   },
+<<<<<<< HEAD
                   "id": 252,
+=======
+                  "id": 209,
+>>>>>>> 9667ddf (Added donation contract)
                   "nodeType": "ExpressionStatement",
                   "src": "155:14:2"
                 }
               ]
             },
             "documentation": null,
+<<<<<<< HEAD
             "id": 254,
+=======
+            "id": 211,
+>>>>>>> 9667ddf (Added donation contract)
             "implemented": true,
             "kind": "function",
             "modifiers": [],
             "name": "set",
             "nodeType": "FunctionDefinition",
             "parameters": {
+<<<<<<< HEAD
               "id": 247,
+=======
+              "id": 204,
+>>>>>>> 9667ddf (Added donation contract)
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
+<<<<<<< HEAD
                   "id": 246,
                   "name": "x",
                   "nodeType": "VariableDeclaration",
                   "scope": 254,
+=======
+                  "id": 203,
+                  "name": "x",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 211,
+>>>>>>> 9667ddf (Added donation contract)
                   "src": "133:6:2",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -181,7 +252,11 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
+<<<<<<< HEAD
                     "id": 245,
+=======
+                    "id": 202,
+>>>>>>> 9667ddf (Added donation contract)
                     "name": "uint",
                     "nodeType": "ElementaryTypeName",
                     "src": "133:4:2",
@@ -197,12 +272,20 @@
               "src": "132:8:2"
             },
             "returnParameters": {
+<<<<<<< HEAD
               "id": 248,
+=======
+              "id": 205,
+>>>>>>> 9667ddf (Added donation contract)
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "148:0:2"
             },
+<<<<<<< HEAD
             "scope": 263,
+=======
+            "scope": 220,
+>>>>>>> 9667ddf (Added donation contract)
             "src": "120:55:2",
             "stateMutability": "nonpayable",
             "superFunction": null,
@@ -210,54 +293,90 @@
           },
           {
             "body": {
+<<<<<<< HEAD
               "id": 261,
+=======
+              "id": 218,
+>>>>>>> 9667ddf (Added donation contract)
               "nodeType": "Block",
               "src": "223:30:2",
               "statements": [
                 {
                   "expression": {
                     "argumentTypes": null,
+<<<<<<< HEAD
                     "id": 259,
                     "name": "storedData",
                     "nodeType": "Identifier",
                     "overloadedDeclarations": [],
                     "referencedDeclaration": 244,
+=======
+                    "id": 216,
+                    "name": "storedData",
+                    "nodeType": "Identifier",
+                    "overloadedDeclarations": [],
+                    "referencedDeclaration": 201,
+>>>>>>> 9667ddf (Added donation contract)
                     "src": "237:10:2",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
                     }
                   },
+<<<<<<< HEAD
                   "functionReturnParameters": 258,
                   "id": 260,
+=======
+                  "functionReturnParameters": 215,
+                  "id": 217,
+>>>>>>> 9667ddf (Added donation contract)
                   "nodeType": "Return",
                   "src": "230:17:2"
                 }
               ]
             },
             "documentation": null,
+<<<<<<< HEAD
             "id": 262,
+=======
+            "id": 219,
+>>>>>>> 9667ddf (Added donation contract)
             "implemented": true,
             "kind": "function",
             "modifiers": [],
             "name": "get",
             "nodeType": "FunctionDefinition",
             "parameters": {
+<<<<<<< HEAD
               "id": 255,
+=======
+              "id": 212,
+>>>>>>> 9667ddf (Added donation contract)
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "193:2:2"
             },
             "returnParameters": {
+<<<<<<< HEAD
               "id": 258,
+=======
+              "id": 215,
+>>>>>>> 9667ddf (Added donation contract)
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
+<<<<<<< HEAD
                   "id": 257,
                   "name": "",
                   "nodeType": "VariableDeclaration",
                   "scope": 262,
+=======
+                  "id": 214,
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 219,
+>>>>>>> 9667ddf (Added donation contract)
                   "src": "217:4:2",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -266,7 +385,11 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
+<<<<<<< HEAD
                     "id": 256,
+=======
+                    "id": 213,
+>>>>>>> 9667ddf (Added donation contract)
                     "name": "uint",
                     "nodeType": "ElementaryTypeName",
                     "src": "217:4:2",
@@ -281,14 +404,22 @@
               ],
               "src": "216:6:2"
             },
+<<<<<<< HEAD
             "scope": 263,
+=======
+            "scope": 220,
+>>>>>>> 9667ddf (Added donation contract)
             "src": "181:72:2",
             "stateMutability": "view",
             "superFunction": null,
             "visibility": "public"
           }
         ],
+<<<<<<< HEAD
         "scope": 264,
+=======
+        "scope": 221,
+>>>>>>> 9667ddf (Added donation contract)
         "src": "70:186:2"
       }
     ],
@@ -299,7 +430,11 @@
       "absolutePath": "project:/contracts/SimpleStorage.sol",
       "exportedSymbols": {
         "SimpleStorage": [
+<<<<<<< HEAD
           263
+=======
+          220
+>>>>>>> 9667ddf (Added donation contract)
         ]
       }
     },
@@ -316,7 +451,11 @@
             ".0"
           ]
         },
+<<<<<<< HEAD
         "id": 242,
+=======
+        "id": 199,
+>>>>>>> 9667ddf (Added donation contract)
         "name": "PragmaDirective",
         "src": "33:33:2"
       },
@@ -332,17 +471,28 @@
           "documentation": null,
           "fullyImplemented": true,
           "linearizedBaseContracts": [
+<<<<<<< HEAD
             263
           ],
           "name": "SimpleStorage",
           "scope": 264
+=======
+            220
+          ],
+          "name": "SimpleStorage",
+          "scope": 221
+>>>>>>> 9667ddf (Added donation contract)
         },
         "children": [
           {
             "attributes": {
               "constant": false,
               "name": "storedData",
+<<<<<<< HEAD
               "scope": 263,
+=======
+              "scope": 220,
+>>>>>>> 9667ddf (Added donation contract)
               "stateVariable": true,
               "storageLocation": "default",
               "type": "uint256",
@@ -355,12 +505,20 @@
                   "name": "uint",
                   "type": "uint256"
                 },
+<<<<<<< HEAD
                 "id": 243,
+=======
+                "id": 200,
+>>>>>>> 9667ddf (Added donation contract)
                 "name": "ElementaryTypeName",
                 "src": "98:4:2"
               }
             ],
+<<<<<<< HEAD
             "id": 244,
+=======
+            "id": 201,
+>>>>>>> 9667ddf (Added donation contract)
             "name": "VariableDeclaration",
             "src": "98:15:2"
           },
@@ -374,7 +532,11 @@
                 null
               ],
               "name": "set",
+<<<<<<< HEAD
               "scope": 263,
+=======
+              "scope": 220,
+>>>>>>> 9667ddf (Added donation contract)
               "stateMutability": "nonpayable",
               "superFunction": null,
               "visibility": "public"
@@ -386,7 +548,11 @@
                     "attributes": {
                       "constant": false,
                       "name": "x",
+<<<<<<< HEAD
                       "scope": 254,
+=======
+                      "scope": 211,
+>>>>>>> 9667ddf (Added donation contract)
                       "stateVariable": false,
                       "storageLocation": "default",
                       "type": "uint256",
@@ -399,17 +565,29 @@
                           "name": "uint",
                           "type": "uint256"
                         },
+<<<<<<< HEAD
                         "id": 245,
+=======
+                        "id": 202,
+>>>>>>> 9667ddf (Added donation contract)
                         "name": "ElementaryTypeName",
                         "src": "133:4:2"
                       }
                     ],
+<<<<<<< HEAD
                     "id": 246,
+=======
+                    "id": 203,
+>>>>>>> 9667ddf (Added donation contract)
                     "name": "VariableDeclaration",
                     "src": "133:6:2"
                   }
                 ],
+<<<<<<< HEAD
                 "id": 247,
+=======
+                "id": 204,
+>>>>>>> 9667ddf (Added donation contract)
                 "name": "ParameterList",
                 "src": "132:8:2"
               },
@@ -420,7 +598,11 @@
                   ]
                 },
                 "children": [],
+<<<<<<< HEAD
                 "id": 248,
+=======
+                "id": 205,
+>>>>>>> 9667ddf (Added donation contract)
                 "name": "ParameterList",
                 "src": "148:0:2"
               },
@@ -445,11 +627,19 @@
                               "overloadedDeclarations": [
                                 null
                               ],
+<<<<<<< HEAD
                               "referencedDeclaration": 244,
                               "type": "uint256",
                               "value": "storedData"
                             },
                             "id": 249,
+=======
+                              "referencedDeclaration": 201,
+                              "type": "uint256",
+                              "value": "storedData"
+                            },
+                            "id": 206,
+>>>>>>> 9667ddf (Added donation contract)
                             "name": "Identifier",
                             "src": "155:10:2"
                           },
@@ -459,31 +649,55 @@
                               "overloadedDeclarations": [
                                 null
                               ],
+<<<<<<< HEAD
                               "referencedDeclaration": 246,
                               "type": "uint256",
                               "value": "x"
                             },
                             "id": 250,
+=======
+                              "referencedDeclaration": 203,
+                              "type": "uint256",
+                              "value": "x"
+                            },
+                            "id": 207,
+>>>>>>> 9667ddf (Added donation contract)
                             "name": "Identifier",
                             "src": "168:1:2"
                           }
                         ],
+<<<<<<< HEAD
                         "id": 251,
+=======
+                        "id": 208,
+>>>>>>> 9667ddf (Added donation contract)
                         "name": "Assignment",
                         "src": "155:14:2"
                       }
                     ],
+<<<<<<< HEAD
                     "id": 252,
+=======
+                    "id": 209,
+>>>>>>> 9667ddf (Added donation contract)
                     "name": "ExpressionStatement",
                     "src": "155:14:2"
                   }
                 ],
+<<<<<<< HEAD
                 "id": 253,
+=======
+                "id": 210,
+>>>>>>> 9667ddf (Added donation contract)
                 "name": "Block",
                 "src": "148:27:2"
               }
             ],
+<<<<<<< HEAD
             "id": 254,
+=======
+            "id": 211,
+>>>>>>> 9667ddf (Added donation contract)
             "name": "FunctionDefinition",
             "src": "120:55:2"
           },
@@ -497,7 +711,11 @@
                 null
               ],
               "name": "get",
+<<<<<<< HEAD
               "scope": 263,
+=======
+              "scope": 220,
+>>>>>>> 9667ddf (Added donation contract)
               "stateMutability": "view",
               "superFunction": null,
               "visibility": "public"
@@ -510,7 +728,11 @@
                   ]
                 },
                 "children": [],
+<<<<<<< HEAD
                 "id": 255,
+=======
+                "id": 212,
+>>>>>>> 9667ddf (Added donation contract)
                 "name": "ParameterList",
                 "src": "193:2:2"
               },
@@ -520,7 +742,11 @@
                     "attributes": {
                       "constant": false,
                       "name": "",
+<<<<<<< HEAD
                       "scope": 262,
+=======
+                      "scope": 219,
+>>>>>>> 9667ddf (Added donation contract)
                       "stateVariable": false,
                       "storageLocation": "default",
                       "type": "uint256",
@@ -533,17 +759,29 @@
                           "name": "uint",
                           "type": "uint256"
                         },
+<<<<<<< HEAD
                         "id": 256,
+=======
+                        "id": 213,
+>>>>>>> 9667ddf (Added donation contract)
                         "name": "ElementaryTypeName",
                         "src": "217:4:2"
                       }
                     ],
+<<<<<<< HEAD
                     "id": 257,
+=======
+                    "id": 214,
+>>>>>>> 9667ddf (Added donation contract)
                     "name": "VariableDeclaration",
                     "src": "217:4:2"
                   }
                 ],
+<<<<<<< HEAD
                 "id": 258,
+=======
+                "id": 215,
+>>>>>>> 9667ddf (Added donation contract)
                 "name": "ParameterList",
                 "src": "216:6:2"
               },
@@ -551,7 +789,11 @@
                 "children": [
                   {
                     "attributes": {
+<<<<<<< HEAD
                       "functionReturnParameters": 258
+=======
+                      "functionReturnParameters": 215
+>>>>>>> 9667ddf (Added donation contract)
                     },
                     "children": [
                       {
@@ -560,36 +802,64 @@
                           "overloadedDeclarations": [
                             null
                           ],
+<<<<<<< HEAD
                           "referencedDeclaration": 244,
                           "type": "uint256",
                           "value": "storedData"
                         },
                         "id": 259,
+=======
+                          "referencedDeclaration": 201,
+                          "type": "uint256",
+                          "value": "storedData"
+                        },
+                        "id": 216,
+>>>>>>> 9667ddf (Added donation contract)
                         "name": "Identifier",
                         "src": "237:10:2"
                       }
                     ],
+<<<<<<< HEAD
                     "id": 260,
+=======
+                    "id": 217,
+>>>>>>> 9667ddf (Added donation contract)
                     "name": "Return",
                     "src": "230:17:2"
                   }
                 ],
+<<<<<<< HEAD
                 "id": 261,
+=======
+                "id": 218,
+>>>>>>> 9667ddf (Added donation contract)
                 "name": "Block",
                 "src": "223:30:2"
               }
             ],
+<<<<<<< HEAD
             "id": 262,
+=======
+            "id": 219,
+>>>>>>> 9667ddf (Added donation contract)
             "name": "FunctionDefinition",
             "src": "181:72:2"
           }
         ],
+<<<<<<< HEAD
         "id": 263,
+=======
+        "id": 220,
+>>>>>>> 9667ddf (Added donation contract)
         "name": "ContractDefinition",
         "src": "70:186:2"
       }
     ],
+<<<<<<< HEAD
     "id": 264,
+=======
+    "id": 221,
+>>>>>>> 9667ddf (Added donation contract)
     "name": "SourceUnit",
     "src": "33:225:2"
   },
@@ -601,12 +871,21 @@
     "5777": {
       "events": {},
       "links": {},
+<<<<<<< HEAD
       "address": "0x4603c2a203D8a4Cf37fc6Cb345CA0830aB77b59B",
       "transactionHash": "0x3d584287a5e47fda2d5e040dfd107006c5f150a7ea30323ca1a48ca855832099"
     }
   },
   "schemaVersion": "3.4.4",
   "updatedAt": "2022-01-12T12:30:00.697Z",
+=======
+      "address": "0xD05fDEf3dB8d728c8fD00dAF7202a83b8Be01ea9",
+      "transactionHash": "0xf2b0862d2eff7b0dca03da38ae71df160c075f7944fe93f724856e5fa48394c7"
+    }
+  },
+  "schemaVersion": "3.4.4",
+  "updatedAt": "2022-01-11T09:45:48.896Z",
+>>>>>>> 9667ddf (Added donation contract)
   "networkType": "ethereum",
   "devdoc": {
     "methods": {}
