@@ -16,6 +16,7 @@ class App extends Component {
 
       // Use web3 to get the user's accounts.
       const accounts = await web3.eth.getAccounts();
+      console.log(accounts);
 
       // console.log(accounts.length);
       // console.log(accounts[0]);
@@ -26,7 +27,7 @@ class App extends Component {
         Donation.abi,
         deployedNetwork && deployedNetwork.address,
       );
-      
+      console.log(">>> " + this.state);
       // Set web3, accounts, and contract to the state, and then proceed with an
       // example of interacting with the contract's methods.
       this.setState({ web3:web3, accounts:accounts, contract: instance });
