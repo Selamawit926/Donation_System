@@ -8,6 +8,7 @@ contract Donation{
 
     struct Charity{
         uint id;
+        address charityaddr;
         string name;
         string date;
         uint amountReceived;
@@ -17,12 +18,14 @@ contract Donation{
 
     struct DonorsInfo{
         uint id;
+        address donoraddr;
+
         string name;
         uint amountDonated;
         string[] history;
         bool transfered;
     }
-
+    mapping (address=>uint) private balances;
     function getCharity(uint id) public view returns (Charity memory) {
         return charities[id];
     }
@@ -34,26 +37,41 @@ contract Donation{
     function addCharity(string memory name,string memory description, string memory date) public {
         charityCount++;
         string[] memory history=new string[](100);
-        charities.push(Charity(charityCount,name,date,0,description,history));
+        charities.push(Charity(charityCount,msg.sender,name,date,0,description,history));
         
     }
 
     function getdonors() public view returns (DonorsInfo[] memory){
         return donors;
     }
-
+```
     function getdonor(uint id) public view returns (DonorsInfo memory){
         return donors[id];
     }
 
-    function addDonors(uint charity_id,string memory donorName) public {
+    function addDonors(uint charity_id,  string memory donorName) public {
         donorsCount++;
         string[] memory _history = new string[](100);
-        donors[donorsCount] = DonorsInfo(donorsCount,donorName,0,_history, false);
+        donors[donorsCount] = DonorsInfo(donorsCount, msg.sender, donorName,0,_history, false);
         charities[charity_id].history.push(donorName);
     }
 
-    // function donate(address fromAddress, address toAddress,uint charity_id) public{
+    function donate(address fromAddress, address toAddress,uint amountDonated) public{
+        withdraw(fromAddress, amountDonated);
+        deposite(toAddress, amountDonated);
+    }
+
+    function deposite(address charityaddr, uint amountReceived) public payable returns (uint){
+        balances[charityaddr] += amountReceived;
+        // emit depositemade(charityaddr, amountReceived) event here
+        return balances[charityaddr];
+    }
+    function withdraw(address  donoraddr, uint amountDonated) public returns (uint){
+        require(amountDonated <= balances[donoraddr],"err");
+        balances[donoraddr] -= amountDonated;
+        // donoraddr.transfer(amountDonated);
+        return balances[donoraddr];
         
-    // }
+    }
+    
 }
