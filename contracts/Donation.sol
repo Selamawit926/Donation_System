@@ -44,7 +44,7 @@ contract Donation{
     function getdonors() public view returns (DonorsInfo[] memory){
         return donors;
     }
-```
+
     function getdonor(uint id) public view returns (DonorsInfo memory){
         return donors[id];
     }
