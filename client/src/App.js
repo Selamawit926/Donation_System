@@ -7,7 +7,6 @@ import "./App.css";
 
 class App extends Component {
   state = { storageValue: 0, web3: null, accounts: null, contract: null };
-  ether= 10**18;
 
   componentDidMount = async () => {
     try {
@@ -31,13 +30,13 @@ class App extends Component {
       // Set web3, accounts, and contract to the state, and then proceed with an
       // example of interacting with the contract's methods.
       this.setState({ web3:web3, accounts:accounts, contract: instance });
-      var account= accounts[0];
-      console.log(account);
-      await this.state.contract.methods.assignAddresses(account).call();
-      var address= await this.state.contract.methods.getCharityAddresses().call();
-      console.log(address);
+      // var account= accounts[0];
+      // console.log(account);
+      // await this.state.contract.methods.assignAddresses(account).call();
+      // var address= await this.state.contract.methods.getCharityAddresses().call();
+      // console.log(address);
       // await this.state.contract.methods.donate(5,{from: account, value: web3.utils.toBN(5* ether)}).call();
-    
+     
     } catch (error) {
       // Catch any errors for any of the above operations.
       alert(
