@@ -2,19 +2,36 @@
   "contractName": "Migrations",
   "abi": [
     {
+<<<<<<< HEAD
+=======
+      "inputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    },
+    {
+>>>>>>> f68268d (Updated donation contract and donation.test.js file)
       "constant": true,
       "inputs": [],
       "name": "last_completed_migration",
       "outputs": [
         {
+<<<<<<< HEAD
+=======
+          "internalType": "uint256",
+>>>>>>> f68268d (Updated donation contract and donation.test.js file)
           "name": "",
           "type": "uint256"
         }
       ],
       "payable": false,
       "stateMutability": "view",
+<<<<<<< HEAD
       "type": "function",
       "signature": "0x445df0ac"
+=======
+      "type": "function"
+>>>>>>> f68268d (Updated donation contract and donation.test.js file)
     },
     {
       "constant": true,
@@ -22,12 +39,17 @@
       "name": "owner",
       "outputs": [
         {
+<<<<<<< HEAD
+=======
+          "internalType": "address",
+>>>>>>> f68268d (Updated donation contract and donation.test.js file)
           "name": "",
           "type": "address"
         }
       ],
       "payable": false,
       "stateMutability": "view",
+<<<<<<< HEAD
       "type": "function",
       "signature": "0x8da5cb5b"
     },
@@ -37,11 +59,18 @@
       "stateMutability": "nonpayable",
       "type": "constructor",
       "signature": "constructor"
+=======
+      "type": "function"
+>>>>>>> f68268d (Updated donation contract and donation.test.js file)
     },
     {
       "constant": false,
       "inputs": [
         {
+<<<<<<< HEAD
+=======
+          "internalType": "uint256",
+>>>>>>> f68268d (Updated donation contract and donation.test.js file)
           "name": "completed",
           "type": "uint256"
         }
@@ -50,8 +79,12 @@
       "outputs": [],
       "payable": false,
       "stateMutability": "nonpayable",
+<<<<<<< HEAD
       "type": "function",
       "signature": "0xfdacd576"
+=======
+      "type": "function"
+>>>>>>> f68268d (Updated donation contract and donation.test.js file)
     }
   ],
   "bytecode": "0x608060405234801561001057600080fd5b50336000806101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff1602179055506101d0806100606000396000f3fe608060405260043610610057576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff168063445df0ac1461005c5780638da5cb5b14610087578063fdacd576146100de575b600080fd5b34801561006857600080fd5b50610071610119565b6040518082815260200191505060405180910390f35b34801561009357600080fd5b5061009c61011f565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b3480156100ea57600080fd5b506101176004803603602081101561010157600080fd5b8101908080359060200190929190505050610144565b005b60015481565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff1614156101a157806001819055505b5056fea165627a7a72305820f5a8f1748b5b9c1af887290b4f3656e57db58eafa9fc9413e4c0afa7f7c99cdc0029",
@@ -64,14 +97,41 @@
     "absolutePath": "/C/Users/seams/Desktop/Practices/BlockchainPractices/Donation_System/contracts/Migrations.sol",
     "exportedSymbols": {
       "Migrations": [
-        197
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        240
+=======
+        521
+>>>>>>> 49de1b08315bc443ef67a3f7dc0ece79fb113b1d
       ]
     },
-    "id": 198,
+    "id": 522,
     "nodeType": "SourceUnit",
     "nodes": [
       {
+<<<<<<< HEAD
+        "id": 205,
+=======
+        197
+=======
+        521
+>>>>>>> f68268d (Updated donation contract and donation.test.js file)
+      ]
+    },
+    "id": 522,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+<<<<<<< HEAD
         "id": 162,
+>>>>>>> 9667ddf (Added donation contract)
+=======
+        "id": 486,
+>>>>>>> f68268d (Updated donation contract and donation.test.js file)
+=======
+        "id": 486,
+>>>>>>> 49de1b08315bc443ef67a3f7dc0ece79fb113b1d
         "literals": [
           "solidity",
           ">=",
@@ -90,19 +150,41 @@
         "contractKind": "contract",
         "documentation": null,
         "fullyImplemented": true,
+        "id": 521,
+        "linearizedBaseContracts": [
+<<<<<<< HEAD
+<<<<<<< HEAD
+          240
+=======
         "id": 197,
         "linearizedBaseContracts": [
           197
+>>>>>>> 9667ddf (Added donation contract)
+=======
+          521
+>>>>>>> f68268d (Updated donation contract and donation.test.js file)
+=======
+          521
+>>>>>>> 49de1b08315bc443ef67a3f7dc0ece79fb113b1d
         ],
         "name": "Migrations",
         "nodeType": "ContractDefinition",
         "nodes": [
           {
             "constant": false,
-            "id": 164,
+            "id": 488,
             "name": "owner",
             "nodeType": "VariableDeclaration",
+<<<<<<< HEAD
+<<<<<<< HEAD
             "scope": 197,
+>>>>>>> 9667ddf (Added donation contract)
+=======
+            "scope": 521,
+>>>>>>> f68268d (Updated donation contract and donation.test.js file)
+=======
+            "scope": 521,
+>>>>>>> 49de1b08315bc443ef67a3f7dc0ece79fb113b1d
             "src": "96:20:1",
             "stateVariable": true,
             "storageLocation": "default",
@@ -111,7 +193,19 @@
               "typeString": "address"
             },
             "typeName": {
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+              "id": 206,
+=======
               "id": 163,
+>>>>>>> 9667ddf (Added donation contract)
+=======
+              "id": 487,
+>>>>>>> f68268d (Updated donation contract and donation.test.js file)
+=======
+              "id": 487,
+>>>>>>> 49de1b08315bc443ef67a3f7dc0ece79fb113b1d
               "name": "address",
               "nodeType": "ElementaryTypeName",
               "src": "96:7:1",
@@ -126,10 +220,24 @@
           },
           {
             "constant": false,
+            "id": 490,
+            "name": "last_completed_migration",
+            "nodeType": "VariableDeclaration",
+<<<<<<< HEAD
+<<<<<<< HEAD
+            "scope": 240,
+=======
             "id": 166,
             "name": "last_completed_migration",
             "nodeType": "VariableDeclaration",
             "scope": 197,
+>>>>>>> 9667ddf (Added donation contract)
+=======
+            "scope": 521,
+>>>>>>> f68268d (Updated donation contract and donation.test.js file)
+=======
+            "scope": 521,
+>>>>>>> 49de1b08315bc443ef67a3f7dc0ece79fb113b1d
             "src": "121:36:1",
             "stateVariable": true,
             "storageLocation": "default",
@@ -138,7 +246,19 @@
               "typeString": "uint256"
             },
             "typeName": {
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+              "id": 208,
+=======
               "id": 165,
+>>>>>>> 9667ddf (Added donation contract)
+=======
+              "id": 489,
+>>>>>>> f68268d (Updated donation contract and donation.test.js file)
+=======
+              "id": 489,
+>>>>>>> 49de1b08315bc443ef67a3f7dc0ece79fb113b1d
               "name": "uint",
               "nodeType": "ElementaryTypeName",
               "src": "121:4:1",
@@ -152,7 +272,19 @@
           },
           {
             "body": {
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+              "id": 217,
+=======
               "id": 174,
+>>>>>>> 9667ddf (Added donation contract)
+=======
+              "id": 498,
+>>>>>>> f68268d (Updated donation contract and donation.test.js file)
+=======
+              "id": 498,
+>>>>>>> 49de1b08315bc443ef67a3f7dc0ece79fb113b1d
               "nodeType": "Block",
               "src": "186:39:1",
               "statements": [
@@ -163,7 +295,19 @@
                       "typeIdentifier": "t_address",
                       "typeString": "address"
                     },
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+                    "id": 214,
+=======
                     "id": 171,
+>>>>>>> 9667ddf (Added donation contract)
+=======
+                    "id": 495,
+>>>>>>> f68268d (Updated donation contract and donation.test.js file)
+=======
+                    "id": 495,
+>>>>>>> 49de1b08315bc443ef67a3f7dc0ece79fb113b1d
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -172,18 +316,39 @@
                       "argumentTypes": null,
                       "expression": {
                         "argumentTypes": null,
-                        "id": 168,
+                        "id": 492,
                         "name": "msg",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
+<<<<<<< HEAD
+<<<<<<< HEAD
                         "referencedDeclaration": 235,
+>>>>>>> 9667ddf (Added donation contract)
+=======
+                        "referencedDeclaration": 559,
+>>>>>>> f68268d (Updated donation contract and donation.test.js file)
+=======
+                        "referencedDeclaration": 559,
+>>>>>>> 49de1b08315bc443ef67a3f7dc0ece79fb113b1d
                         "src": "197:3:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_magic_message",
                           "typeString": "msg"
                         }
                       },
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+                      "id": 212,
+=======
                       "id": 169,
+>>>>>>> 9667ddf (Added donation contract)
+=======
+                      "id": 493,
+>>>>>>> f68268d (Updated donation contract and donation.test.js file)
+=======
+                      "id": 493,
+>>>>>>> 49de1b08315bc443ef67a3f7dc0ece79fb113b1d
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
@@ -201,11 +366,20 @@
                     "operator": "==",
                     "rightExpression": {
                       "argumentTypes": null,
-                      "id": 170,
+                      "id": 494,
                       "name": "owner",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
+<<<<<<< HEAD
+<<<<<<< HEAD
                       "referencedDeclaration": 164,
+>>>>>>> 9667ddf (Added donation contract)
+=======
+                      "referencedDeclaration": 488,
+>>>>>>> f68268d (Updated donation contract and donation.test.js file)
+=======
+                      "referencedDeclaration": 488,
+>>>>>>> 49de1b08315bc443ef67a3f7dc0ece79fb113b1d
                       "src": "211:5:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_address",
@@ -219,11 +393,26 @@
                     }
                   },
                   "falseBody": null,
+                  "id": 497,
+                  "nodeType": "IfStatement",
+                  "src": "193:26:1",
+                  "trueBody": {
+<<<<<<< HEAD
+<<<<<<< HEAD
+                    "id": 215,
+=======
                   "id": 173,
                   "nodeType": "IfStatement",
                   "src": "193:26:1",
                   "trueBody": {
                     "id": 172,
+>>>>>>> 9667ddf (Added donation contract)
+=======
+                    "id": 496,
+>>>>>>> f68268d (Updated donation contract and donation.test.js file)
+=======
+                    "id": 496,
+>>>>>>> 49de1b08315bc443ef67a3f7dc0ece79fb113b1d
                     "nodeType": "PlaceholderStatement",
                     "src": "218:1:1"
                   }
@@ -231,11 +420,26 @@
               ]
             },
             "documentation": null,
+            "id": 499,
+            "name": "restricted",
+            "nodeType": "ModifierDefinition",
+            "parameters": {
+<<<<<<< HEAD
+<<<<<<< HEAD
+              "id": 210,
+=======
             "id": 175,
             "name": "restricted",
             "nodeType": "ModifierDefinition",
             "parameters": {
               "id": 167,
+>>>>>>> 9667ddf (Added donation contract)
+=======
+              "id": 491,
+>>>>>>> f68268d (Updated donation contract and donation.test.js file)
+=======
+              "id": 491,
+>>>>>>> 49de1b08315bc443ef67a3f7dc0ece79fb113b1d
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "183:2:1"
@@ -245,25 +449,58 @@
           },
           {
             "body": {
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+              "id": 226,
+=======
               "id": 183,
+>>>>>>> 9667ddf (Added donation contract)
+=======
+              "id": 507,
+>>>>>>> f68268d (Updated donation contract and donation.test.js file)
+=======
+              "id": 507,
+>>>>>>> 49de1b08315bc443ef67a3f7dc0ece79fb113b1d
               "nodeType": "Block",
               "src": "252:31:1",
               "statements": [
                 {
                   "expression": {
                     "argumentTypes": null,
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+                    "id": 224,
+=======
                     "id": 181,
+>>>>>>> 9667ddf (Added donation contract)
+=======
+                    "id": 505,
+>>>>>>> f68268d (Updated donation contract and donation.test.js file)
+=======
+                    "id": 505,
+>>>>>>> 49de1b08315bc443ef67a3f7dc0ece79fb113b1d
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
                     "lValueRequested": false,
                     "leftHandSide": {
                       "argumentTypes": null,
-                      "id": 178,
+                      "id": 502,
                       "name": "owner",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
+<<<<<<< HEAD
+<<<<<<< HEAD
                       "referencedDeclaration": 164,
+>>>>>>> 9667ddf (Added donation contract)
+=======
+                      "referencedDeclaration": 488,
+>>>>>>> f68268d (Updated donation contract and donation.test.js file)
+=======
+                      "referencedDeclaration": 488,
+>>>>>>> 49de1b08315bc443ef67a3f7dc0ece79fb113b1d
                       "src": "259:5:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_address",
@@ -276,18 +513,39 @@
                       "argumentTypes": null,
                       "expression": {
                         "argumentTypes": null,
-                        "id": 179,
+                        "id": 503,
                         "name": "msg",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
+<<<<<<< HEAD
+<<<<<<< HEAD
                         "referencedDeclaration": 235,
+>>>>>>> 9667ddf (Added donation contract)
+=======
+                        "referencedDeclaration": 559,
+>>>>>>> f68268d (Updated donation contract and donation.test.js file)
+=======
+                        "referencedDeclaration": 559,
+>>>>>>> 49de1b08315bc443ef67a3f7dc0ece79fb113b1d
                         "src": "267:3:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_magic_message",
                           "typeString": "msg"
                         }
                       },
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+                      "id": 223,
+=======
                       "id": 180,
+>>>>>>> 9667ddf (Added donation contract)
+=======
+                      "id": 504,
+>>>>>>> f68268d (Updated donation contract and donation.test.js file)
+=======
+                      "id": 504,
+>>>>>>> 49de1b08315bc443ef67a3f7dc0ece79fb113b1d
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
@@ -307,32 +565,92 @@
                       "typeString": "address"
                     }
                   },
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+                  "id": 225,
+=======
                   "id": 182,
+>>>>>>> 9667ddf (Added donation contract)
+=======
+                  "id": 506,
+>>>>>>> f68268d (Updated donation contract and donation.test.js file)
+=======
+                  "id": 506,
+>>>>>>> 49de1b08315bc443ef67a3f7dc0ece79fb113b1d
                   "nodeType": "ExpressionStatement",
                   "src": "259:18:1"
                 }
               ]
             },
             "documentation": null,
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+            "id": 227,
+=======
             "id": 184,
+>>>>>>> 9667ddf (Added donation contract)
+=======
+            "id": 508,
+>>>>>>> f68268d (Updated donation contract and donation.test.js file)
+=======
+            "id": 508,
+>>>>>>> 49de1b08315bc443ef67a3f7dc0ece79fb113b1d
             "implemented": true,
             "kind": "constructor",
             "modifiers": [],
             "name": "",
             "nodeType": "FunctionDefinition",
             "parameters": {
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+              "id": 219,
+=======
               "id": 176,
+>>>>>>> 9667ddf (Added donation contract)
+=======
+              "id": 500,
+>>>>>>> f68268d (Updated donation contract and donation.test.js file)
+=======
+              "id": 500,
+>>>>>>> 49de1b08315bc443ef67a3f7dc0ece79fb113b1d
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "242:2:1"
             },
             "returnParameters": {
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+              "id": 220,
+=======
               "id": 177,
+>>>>>>> 9667ddf (Added donation contract)
+=======
+              "id": 501,
+>>>>>>> f68268d (Updated donation contract and donation.test.js file)
+=======
+              "id": 501,
+>>>>>>> 49de1b08315bc443ef67a3f7dc0ece79fb113b1d
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "252:0:1"
             },
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+            "scope": 240,
+=======
             "scope": 197,
+>>>>>>> 9667ddf (Added donation contract)
+=======
+            "scope": 521,
+>>>>>>> f68268d (Updated donation contract and donation.test.js file)
+=======
+            "scope": 521,
+>>>>>>> 49de1b08315bc443ef67a3f7dc0ece79fb113b1d
             "src": "231:52:1",
             "stateMutability": "nonpayable",
             "superFunction": null,
@@ -340,25 +658,58 @@
           },
           {
             "body": {
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+              "id": 238,
+=======
               "id": 195,
+>>>>>>> 9667ddf (Added donation contract)
+=======
+              "id": 519,
+>>>>>>> f68268d (Updated donation contract and donation.test.js file)
+=======
+              "id": 519,
+>>>>>>> 49de1b08315bc443ef67a3f7dc0ece79fb113b1d
               "nodeType": "Block",
               "src": "345:49:1",
               "statements": [
                 {
                   "expression": {
                     "argumentTypes": null,
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+                    "id": 236,
+=======
                     "id": 193,
+>>>>>>> 9667ddf (Added donation contract)
+=======
+                    "id": 517,
+>>>>>>> f68268d (Updated donation contract and donation.test.js file)
+=======
+                    "id": 517,
+>>>>>>> 49de1b08315bc443ef67a3f7dc0ece79fb113b1d
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
                     "lValueRequested": false,
                     "leftHandSide": {
                       "argumentTypes": null,
-                      "id": 191,
+                      "id": 515,
                       "name": "last_completed_migration",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
+<<<<<<< HEAD
+<<<<<<< HEAD
                       "referencedDeclaration": 166,
+>>>>>>> 9667ddf (Added donation contract)
+=======
+                      "referencedDeclaration": 490,
+>>>>>>> f68268d (Updated donation contract and donation.test.js file)
+=======
+                      "referencedDeclaration": 490,
+>>>>>>> 49de1b08315bc443ef67a3f7dc0ece79fb113b1d
                       "src": "352:24:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
@@ -369,11 +720,20 @@
                     "operator": "=",
                     "rightHandSide": {
                       "argumentTypes": null,
-                      "id": 192,
+                      "id": 516,
                       "name": "completed",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
+<<<<<<< HEAD
+<<<<<<< HEAD
                       "referencedDeclaration": 186,
+>>>>>>> 9667ddf (Added donation contract)
+=======
+                      "referencedDeclaration": 510,
+>>>>>>> f68268d (Updated donation contract and donation.test.js file)
+=======
+                      "referencedDeclaration": 510,
+>>>>>>> 49de1b08315bc443ef67a3f7dc0ece79fb113b1d
                       "src": "379:9:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
@@ -386,19 +746,54 @@
                       "typeString": "uint256"
                     }
                   },
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+                  "id": 237,
+=======
                   "id": 194,
+>>>>>>> 9667ddf (Added donation contract)
+=======
+                  "id": 518,
+>>>>>>> f68268d (Updated donation contract and donation.test.js file)
+=======
+                  "id": 518,
+>>>>>>> 49de1b08315bc443ef67a3f7dc0ece79fb113b1d
                   "nodeType": "ExpressionStatement",
                   "src": "352:36:1"
                 }
               ]
             },
             "documentation": null,
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+            "id": 239,
+=======
             "id": 196,
+>>>>>>> 9667ddf (Added donation contract)
+=======
+            "id": 520,
+>>>>>>> f68268d (Updated donation contract and donation.test.js file)
+=======
+            "id": 520,
+>>>>>>> 49de1b08315bc443ef67a3f7dc0ece79fb113b1d
             "implemented": true,
             "kind": "function",
             "modifiers": [
               {
                 "arguments": null,
+                "id": 513,
+                "modifierName": {
+                  "argumentTypes": null,
+                  "id": 512,
+                  "name": "restricted",
+                  "nodeType": "Identifier",
+                  "overloadedDeclarations": [],
+<<<<<<< HEAD
+<<<<<<< HEAD
+                  "referencedDeclaration": 218,
+=======
                 "id": 189,
                 "modifierName": {
                   "argumentTypes": null,
@@ -407,6 +802,13 @@
                   "nodeType": "Identifier",
                   "overloadedDeclarations": [],
                   "referencedDeclaration": 175,
+>>>>>>> 9667ddf (Added donation contract)
+=======
+                  "referencedDeclaration": 499,
+>>>>>>> f68268d (Updated donation contract and donation.test.js file)
+=======
+                  "referencedDeclaration": 499,
+>>>>>>> 49de1b08315bc443ef67a3f7dc0ece79fb113b1d
                   "src": "334:10:1",
                   "typeDescriptions": {
                     "typeIdentifier": "t_modifier$__$",
@@ -420,15 +822,41 @@
             "name": "setCompleted",
             "nodeType": "FunctionDefinition",
             "parameters": {
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+              "id": 230,
+=======
               "id": 187,
+>>>>>>> 9667ddf (Added donation contract)
+=======
+              "id": 511,
+>>>>>>> f68268d (Updated donation contract and donation.test.js file)
+=======
+              "id": 511,
+>>>>>>> 49de1b08315bc443ef67a3f7dc0ece79fb113b1d
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
+                  "id": 510,
+                  "name": "completed",
+                  "nodeType": "VariableDeclaration",
+<<<<<<< HEAD
+<<<<<<< HEAD
+                  "scope": 239,
+=======
                   "id": 186,
                   "name": "completed",
                   "nodeType": "VariableDeclaration",
                   "scope": 196,
+>>>>>>> 9667ddf (Added donation contract)
+=======
+                  "scope": 520,
+>>>>>>> f68268d (Updated donation contract and donation.test.js file)
+=======
+                  "scope": 520,
+>>>>>>> 49de1b08315bc443ef67a3f7dc0ece79fb113b1d
                   "src": "311:14:1",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -437,7 +865,19 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+                    "id": 228,
+=======
                     "id": 185,
+>>>>>>> 9667ddf (Added donation contract)
+=======
+                    "id": 509,
+>>>>>>> f68268d (Updated donation contract and donation.test.js file)
+=======
+                    "id": 509,
+>>>>>>> 49de1b08315bc443ef67a3f7dc0ece79fb113b1d
                     "name": "uint",
                     "nodeType": "ElementaryTypeName",
                     "src": "311:4:1",
@@ -453,35 +893,1163 @@
               "src": "310:16:1"
             },
             "returnParameters": {
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+              "id": 233,
+=======
               "id": 190,
+>>>>>>> 9667ddf (Added donation contract)
+=======
+              "id": 514,
+>>>>>>> f68268d (Updated donation contract and donation.test.js file)
+=======
+              "id": 514,
+>>>>>>> 49de1b08315bc443ef67a3f7dc0ece79fb113b1d
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "345:0:1"
             },
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+            "scope": 240,
+=======
             "scope": 197,
+>>>>>>> 9667ddf (Added donation contract)
+=======
+            "scope": 521,
+>>>>>>> f68268d (Updated donation contract and donation.test.js file)
+=======
+            "scope": 521,
+>>>>>>> 49de1b08315bc443ef67a3f7dc0ece79fb113b1d
             "src": "289:105:1",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "public"
           }
         ],
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        "scope": 241,
+=======
         "scope": 198,
+>>>>>>> 9667ddf (Added donation contract)
+=======
+        "scope": 522,
+>>>>>>> f68268d (Updated donation contract and donation.test.js file)
+=======
+        "scope": 522,
+>>>>>>> 49de1b08315bc443ef67a3f7dc0ece79fb113b1d
         "src": "71:326:1"
       }
     ],
     "src": "33:366:1"
   },
   "legacyAST": {
+    "attributes": {
+      "absolutePath": "project:/contracts/Migrations.sol",
+      "exportedSymbols": {
+        "Migrations": [
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+          240
+=======
+          197
+>>>>>>> 9667ddf (Added donation contract)
+=======
+          521
+>>>>>>> f68268d (Updated donation contract and donation.test.js file)
+=======
+          521
+>>>>>>> 49de1b08315bc443ef67a3f7dc0ece79fb113b1d
+        ]
+      }
+=======
     "absolutePath": "/C/Users/seams/Desktop/Practices/BlockchainPractices/Donation_System/contracts/Migrations.sol",
     "exportedSymbols": {
       "Migrations": [
         197
       ]
+>>>>>>> 91a6d1d (donate function)
     },
     "id": 198,
     "nodeType": "SourceUnit",
     "nodes": [
       {
+<<<<<<< HEAD
+        "attributes": {
+          "literals": [
+            "solidity",
+            ">=",
+            "0.4",
+            ".21",
+            "<=",
+            "8.10",
+            ".0"
+          ]
+        },
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        "id": 205,
+=======
+        "id": 162,
+>>>>>>> 9667ddf (Added donation contract)
+=======
+        "id": 486,
+>>>>>>> f68268d (Updated donation contract and donation.test.js file)
+=======
+        "id": 486,
+>>>>>>> 49de1b08315bc443ef67a3f7dc0ece79fb113b1d
+        "name": "PragmaDirective",
+        "src": "33:34:1"
+      },
+      {
+        "attributes": {
+          "baseContracts": [
+            null
+          ],
+          "contractDependencies": [
+            null
+          ],
+          "contractKind": "contract",
+          "documentation": null,
+          "fullyImplemented": true,
+          "linearizedBaseContracts": [
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+            240
+          ],
+          "name": "Migrations",
+          "scope": 241
+=======
+            197
+          ],
+          "name": "Migrations",
+          "scope": 198
+>>>>>>> 9667ddf (Added donation contract)
+=======
+            521
+          ],
+          "name": "Migrations",
+          "scope": 522
+>>>>>>> f68268d (Updated donation contract and donation.test.js file)
+=======
+            521
+          ],
+          "name": "Migrations",
+          "scope": 522
+>>>>>>> 49de1b08315bc443ef67a3f7dc0ece79fb113b1d
+        },
+        "children": [
+          {
+            "attributes": {
+              "constant": false,
+              "name": "owner",
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+              "scope": 240,
+=======
+              "scope": 197,
+>>>>>>> 9667ddf (Added donation contract)
+=======
+              "scope": 521,
+>>>>>>> f68268d (Updated donation contract and donation.test.js file)
+=======
+              "scope": 521,
+>>>>>>> 49de1b08315bc443ef67a3f7dc0ece79fb113b1d
+              "stateVariable": true,
+              "storageLocation": "default",
+              "type": "address",
+              "value": null,
+              "visibility": "public"
+            },
+            "children": [
+              {
+                "attributes": {
+                  "name": "address",
+                  "stateMutability": "nonpayable",
+                  "type": "address"
+                },
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+                "id": 206,
+=======
+                "id": 163,
+>>>>>>> 9667ddf (Added donation contract)
+=======
+                "id": 487,
+>>>>>>> f68268d (Updated donation contract and donation.test.js file)
+=======
+                "id": 487,
+>>>>>>> 49de1b08315bc443ef67a3f7dc0ece79fb113b1d
+                "name": "ElementaryTypeName",
+                "src": "96:7:1"
+              }
+            ],
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+            "id": 207,
+=======
+            "id": 164,
+>>>>>>> 9667ddf (Added donation contract)
+=======
+            "id": 488,
+>>>>>>> f68268d (Updated donation contract and donation.test.js file)
+=======
+            "id": 488,
+>>>>>>> 49de1b08315bc443ef67a3f7dc0ece79fb113b1d
+            "name": "VariableDeclaration",
+            "src": "96:20:1"
+          },
+          {
+            "attributes": {
+              "constant": false,
+              "name": "last_completed_migration",
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+              "scope": 240,
+=======
+              "scope": 197,
+>>>>>>> 9667ddf (Added donation contract)
+=======
+              "scope": 521,
+>>>>>>> f68268d (Updated donation contract and donation.test.js file)
+=======
+              "scope": 521,
+>>>>>>> 49de1b08315bc443ef67a3f7dc0ece79fb113b1d
+              "stateVariable": true,
+              "storageLocation": "default",
+              "type": "uint256",
+              "value": null,
+              "visibility": "public"
+            },
+            "children": [
+              {
+                "attributes": {
+                  "name": "uint",
+                  "type": "uint256"
+                },
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+                "id": 208,
+=======
+                "id": 165,
+>>>>>>> 9667ddf (Added donation contract)
+=======
+                "id": 489,
+>>>>>>> f68268d (Updated donation contract and donation.test.js file)
+=======
+                "id": 489,
+>>>>>>> 49de1b08315bc443ef67a3f7dc0ece79fb113b1d
+                "name": "ElementaryTypeName",
+                "src": "121:4:1"
+              }
+            ],
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+            "id": 209,
+=======
+            "id": 166,
+>>>>>>> 9667ddf (Added donation contract)
+=======
+            "id": 490,
+>>>>>>> f68268d (Updated donation contract and donation.test.js file)
+=======
+            "id": 490,
+>>>>>>> 49de1b08315bc443ef67a3f7dc0ece79fb113b1d
+            "name": "VariableDeclaration",
+            "src": "121:36:1"
+          },
+          {
+            "attributes": {
+              "documentation": null,
+              "name": "restricted",
+              "visibility": "internal"
+            },
+            "children": [
+              {
+                "attributes": {
+                  "parameters": [
+                    null
+                  ]
+                },
+                "children": [],
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+                "id": 210,
+=======
+                "id": 167,
+>>>>>>> 9667ddf (Added donation contract)
+=======
+                "id": 491,
+>>>>>>> f68268d (Updated donation contract and donation.test.js file)
+=======
+                "id": 491,
+>>>>>>> 49de1b08315bc443ef67a3f7dc0ece79fb113b1d
+                "name": "ParameterList",
+                "src": "183:2:1"
+              },
+              {
+                "children": [
+                  {
+                    "attributes": {
+                      "falseBody": null
+                    },
+                    "children": [
+                      {
+                        "attributes": {
+                          "argumentTypes": null,
+                          "commonType": {
+                            "typeIdentifier": "t_address",
+                            "typeString": "address"
+                          },
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": false,
+                          "lValueRequested": false,
+                          "operator": "==",
+                          "type": "bool"
+                        },
+                        "children": [
+                          {
+                            "attributes": {
+                              "argumentTypes": null,
+                              "isConstant": false,
+                              "isLValue": false,
+                              "isPure": false,
+                              "lValueRequested": false,
+                              "member_name": "sender",
+                              "referencedDeclaration": null,
+                              "type": "address payable"
+                            },
+                            "children": [
+                              {
+                                "attributes": {
+                                  "argumentTypes": null,
+                                  "overloadedDeclarations": [
+                                    null
+                                  ],
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+                                  "referencedDeclaration": 278,
+                                  "type": "msg",
+                                  "value": "msg"
+                                },
+                                "id": 211,
+=======
+                                  "referencedDeclaration": 235,
+                                  "type": "msg",
+                                  "value": "msg"
+                                },
+                                "id": 168,
+>>>>>>> 9667ddf (Added donation contract)
+=======
+                                  "referencedDeclaration": 559,
+                                  "type": "msg",
+                                  "value": "msg"
+                                },
+                                "id": 492,
+>>>>>>> f68268d (Updated donation contract and donation.test.js file)
+=======
+                                  "referencedDeclaration": 559,
+                                  "type": "msg",
+                                  "value": "msg"
+                                },
+                                "id": 492,
+>>>>>>> 49de1b08315bc443ef67a3f7dc0ece79fb113b1d
+                                "name": "Identifier",
+                                "src": "197:3:1"
+                              }
+                            ],
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+                            "id": 212,
+=======
+                            "id": 169,
+>>>>>>> 9667ddf (Added donation contract)
+=======
+                            "id": 493,
+>>>>>>> f68268d (Updated donation contract and donation.test.js file)
+=======
+                            "id": 493,
+>>>>>>> 49de1b08315bc443ef67a3f7dc0ece79fb113b1d
+                            "name": "MemberAccess",
+                            "src": "197:10:1"
+                          },
+                          {
+                            "attributes": {
+                              "argumentTypes": null,
+                              "overloadedDeclarations": [
+                                null
+                              ],
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+                              "referencedDeclaration": 207,
+                              "type": "address",
+                              "value": "owner"
+                            },
+                            "id": 213,
+=======
+                              "referencedDeclaration": 164,
+                              "type": "address",
+                              "value": "owner"
+                            },
+                            "id": 170,
+>>>>>>> 9667ddf (Added donation contract)
+=======
+                              "referencedDeclaration": 488,
+                              "type": "address",
+                              "value": "owner"
+                            },
+                            "id": 494,
+>>>>>>> f68268d (Updated donation contract and donation.test.js file)
+=======
+                              "referencedDeclaration": 488,
+                              "type": "address",
+                              "value": "owner"
+                            },
+                            "id": 494,
+>>>>>>> 49de1b08315bc443ef67a3f7dc0ece79fb113b1d
+                            "name": "Identifier",
+                            "src": "211:5:1"
+                          }
+                        ],
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+                        "id": 214,
+=======
+                        "id": 171,
+>>>>>>> 9667ddf (Added donation contract)
+=======
+                        "id": 495,
+>>>>>>> f68268d (Updated donation contract and donation.test.js file)
+=======
+                        "id": 495,
+>>>>>>> 49de1b08315bc443ef67a3f7dc0ece79fb113b1d
+                        "name": "BinaryOperation",
+                        "src": "197:19:1"
+                      },
+                      {
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+                        "id": 215,
+=======
+                        "id": 172,
+>>>>>>> 9667ddf (Added donation contract)
+=======
+                        "id": 496,
+>>>>>>> f68268d (Updated donation contract and donation.test.js file)
+=======
+                        "id": 496,
+>>>>>>> 49de1b08315bc443ef67a3f7dc0ece79fb113b1d
+                        "name": "PlaceholderStatement",
+                        "src": "218:1:1"
+                      }
+                    ],
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+                    "id": 216,
+=======
+                    "id": 173,
+>>>>>>> 9667ddf (Added donation contract)
+=======
+                    "id": 497,
+>>>>>>> f68268d (Updated donation contract and donation.test.js file)
+=======
+                    "id": 497,
+>>>>>>> 49de1b08315bc443ef67a3f7dc0ece79fb113b1d
+                    "name": "IfStatement",
+                    "src": "193:26:1"
+                  }
+                ],
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+                "id": 217,
+=======
+                "id": 174,
+>>>>>>> 9667ddf (Added donation contract)
+=======
+                "id": 498,
+>>>>>>> f68268d (Updated donation contract and donation.test.js file)
+=======
+                "id": 498,
+>>>>>>> 49de1b08315bc443ef67a3f7dc0ece79fb113b1d
+                "name": "Block",
+                "src": "186:39:1"
+              }
+            ],
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+            "id": 218,
+=======
+            "id": 175,
+>>>>>>> 9667ddf (Added donation contract)
+=======
+            "id": 499,
+>>>>>>> f68268d (Updated donation contract and donation.test.js file)
+=======
+            "id": 499,
+>>>>>>> 49de1b08315bc443ef67a3f7dc0ece79fb113b1d
+            "name": "ModifierDefinition",
+            "src": "164:61:1"
+          },
+          {
+            "attributes": {
+              "documentation": null,
+              "implemented": true,
+              "isConstructor": true,
+              "kind": "constructor",
+              "modifiers": [
+                null
+              ],
+              "name": "",
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+              "scope": 240,
+=======
+              "scope": 197,
+>>>>>>> 9667ddf (Added donation contract)
+=======
+              "scope": 521,
+>>>>>>> f68268d (Updated donation contract and donation.test.js file)
+=======
+              "scope": 521,
+>>>>>>> 49de1b08315bc443ef67a3f7dc0ece79fb113b1d
+              "stateMutability": "nonpayable",
+              "superFunction": null,
+              "visibility": "public"
+            },
+            "children": [
+              {
+                "attributes": {
+                  "parameters": [
+                    null
+                  ]
+                },
+                "children": [],
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+                "id": 219,
+=======
+                "id": 176,
+>>>>>>> 9667ddf (Added donation contract)
+=======
+                "id": 500,
+>>>>>>> f68268d (Updated donation contract and donation.test.js file)
+=======
+                "id": 500,
+>>>>>>> 49de1b08315bc443ef67a3f7dc0ece79fb113b1d
+                "name": "ParameterList",
+                "src": "242:2:1"
+              },
+              {
+                "attributes": {
+                  "parameters": [
+                    null
+                  ]
+                },
+                "children": [],
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+                "id": 220,
+=======
+                "id": 177,
+>>>>>>> 9667ddf (Added donation contract)
+=======
+                "id": 501,
+>>>>>>> f68268d (Updated donation contract and donation.test.js file)
+=======
+                "id": 501,
+>>>>>>> 49de1b08315bc443ef67a3f7dc0ece79fb113b1d
+                "name": "ParameterList",
+                "src": "252:0:1"
+              },
+              {
+                "children": [
+                  {
+                    "children": [
+                      {
+                        "attributes": {
+                          "argumentTypes": null,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": false,
+                          "lValueRequested": false,
+                          "operator": "=",
+                          "type": "address"
+                        },
+                        "children": [
+                          {
+                            "attributes": {
+                              "argumentTypes": null,
+                              "overloadedDeclarations": [
+                                null
+                              ],
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+                              "referencedDeclaration": 207,
+                              "type": "address",
+                              "value": "owner"
+                            },
+                            "id": 221,
+=======
+                              "referencedDeclaration": 164,
+                              "type": "address",
+                              "value": "owner"
+                            },
+                            "id": 178,
+>>>>>>> 9667ddf (Added donation contract)
+=======
+                              "referencedDeclaration": 488,
+                              "type": "address",
+                              "value": "owner"
+                            },
+                            "id": 502,
+>>>>>>> f68268d (Updated donation contract and donation.test.js file)
+=======
+                              "referencedDeclaration": 488,
+                              "type": "address",
+                              "value": "owner"
+                            },
+                            "id": 502,
+>>>>>>> 49de1b08315bc443ef67a3f7dc0ece79fb113b1d
+                            "name": "Identifier",
+                            "src": "259:5:1"
+                          },
+                          {
+                            "attributes": {
+                              "argumentTypes": null,
+                              "isConstant": false,
+                              "isLValue": false,
+                              "isPure": false,
+                              "lValueRequested": false,
+                              "member_name": "sender",
+                              "referencedDeclaration": null,
+                              "type": "address payable"
+                            },
+                            "children": [
+                              {
+                                "attributes": {
+                                  "argumentTypes": null,
+                                  "overloadedDeclarations": [
+                                    null
+                                  ],
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+                                  "referencedDeclaration": 278,
+                                  "type": "msg",
+                                  "value": "msg"
+                                },
+                                "id": 222,
+=======
+                                  "referencedDeclaration": 235,
+                                  "type": "msg",
+                                  "value": "msg"
+                                },
+                                "id": 179,
+>>>>>>> 9667ddf (Added donation contract)
+=======
+                                  "referencedDeclaration": 559,
+                                  "type": "msg",
+                                  "value": "msg"
+                                },
+                                "id": 503,
+>>>>>>> f68268d (Updated donation contract and donation.test.js file)
+=======
+                                  "referencedDeclaration": 559,
+                                  "type": "msg",
+                                  "value": "msg"
+                                },
+                                "id": 503,
+>>>>>>> 49de1b08315bc443ef67a3f7dc0ece79fb113b1d
+                                "name": "Identifier",
+                                "src": "267:3:1"
+                              }
+                            ],
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+                            "id": 223,
+=======
+                            "id": 180,
+>>>>>>> 9667ddf (Added donation contract)
+=======
+                            "id": 504,
+>>>>>>> f68268d (Updated donation contract and donation.test.js file)
+=======
+                            "id": 504,
+>>>>>>> 49de1b08315bc443ef67a3f7dc0ece79fb113b1d
+                            "name": "MemberAccess",
+                            "src": "267:10:1"
+                          }
+                        ],
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+                        "id": 224,
+=======
+                        "id": 181,
+>>>>>>> 9667ddf (Added donation contract)
+=======
+                        "id": 505,
+>>>>>>> f68268d (Updated donation contract and donation.test.js file)
+=======
+                        "id": 505,
+>>>>>>> 49de1b08315bc443ef67a3f7dc0ece79fb113b1d
+                        "name": "Assignment",
+                        "src": "259:18:1"
+                      }
+                    ],
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+                    "id": 225,
+=======
+                    "id": 182,
+>>>>>>> 9667ddf (Added donation contract)
+=======
+                    "id": 506,
+>>>>>>> f68268d (Updated donation contract and donation.test.js file)
+=======
+                    "id": 506,
+>>>>>>> 49de1b08315bc443ef67a3f7dc0ece79fb113b1d
+                    "name": "ExpressionStatement",
+                    "src": "259:18:1"
+                  }
+                ],
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+                "id": 226,
+=======
+                "id": 183,
+>>>>>>> 9667ddf (Added donation contract)
+=======
+                "id": 507,
+>>>>>>> f68268d (Updated donation contract and donation.test.js file)
+=======
+                "id": 507,
+>>>>>>> 49de1b08315bc443ef67a3f7dc0ece79fb113b1d
+                "name": "Block",
+                "src": "252:31:1"
+              }
+            ],
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+            "id": 227,
+=======
+            "id": 184,
+>>>>>>> 9667ddf (Added donation contract)
+=======
+            "id": 508,
+>>>>>>> f68268d (Updated donation contract and donation.test.js file)
+=======
+            "id": 508,
+>>>>>>> 49de1b08315bc443ef67a3f7dc0ece79fb113b1d
+            "name": "FunctionDefinition",
+            "src": "231:52:1"
+          },
+          {
+            "attributes": {
+              "documentation": null,
+              "implemented": true,
+              "isConstructor": false,
+              "kind": "function",
+              "name": "setCompleted",
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+              "scope": 240,
+=======
+              "scope": 197,
+>>>>>>> 9667ddf (Added donation contract)
+=======
+              "scope": 521,
+>>>>>>> f68268d (Updated donation contract and donation.test.js file)
+=======
+              "scope": 521,
+>>>>>>> 49de1b08315bc443ef67a3f7dc0ece79fb113b1d
+              "stateMutability": "nonpayable",
+              "superFunction": null,
+              "visibility": "public"
+            },
+            "children": [
+              {
+                "children": [
+                  {
+                    "attributes": {
+                      "constant": false,
+                      "name": "completed",
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+                      "scope": 239,
+=======
+                      "scope": 196,
+>>>>>>> 9667ddf (Added donation contract)
+=======
+                      "scope": 520,
+>>>>>>> f68268d (Updated donation contract and donation.test.js file)
+=======
+                      "scope": 520,
+>>>>>>> 49de1b08315bc443ef67a3f7dc0ece79fb113b1d
+                      "stateVariable": false,
+                      "storageLocation": "default",
+                      "type": "uint256",
+                      "value": null,
+                      "visibility": "internal"
+                    },
+                    "children": [
+                      {
+                        "attributes": {
+                          "name": "uint",
+                          "type": "uint256"
+                        },
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+                        "id": 228,
+=======
+                        "id": 185,
+>>>>>>> 9667ddf (Added donation contract)
+=======
+                        "id": 509,
+>>>>>>> f68268d (Updated donation contract and donation.test.js file)
+=======
+                        "id": 509,
+>>>>>>> 49de1b08315bc443ef67a3f7dc0ece79fb113b1d
+                        "name": "ElementaryTypeName",
+                        "src": "311:4:1"
+                      }
+                    ],
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+                    "id": 229,
+=======
+                    "id": 186,
+>>>>>>> 9667ddf (Added donation contract)
+=======
+                    "id": 510,
+>>>>>>> f68268d (Updated donation contract and donation.test.js file)
+=======
+                    "id": 510,
+>>>>>>> 49de1b08315bc443ef67a3f7dc0ece79fb113b1d
+                    "name": "VariableDeclaration",
+                    "src": "311:14:1"
+                  }
+                ],
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+                "id": 230,
+=======
+                "id": 187,
+>>>>>>> 9667ddf (Added donation contract)
+=======
+                "id": 511,
+>>>>>>> f68268d (Updated donation contract and donation.test.js file)
+=======
+                "id": 511,
+>>>>>>> 49de1b08315bc443ef67a3f7dc0ece79fb113b1d
+                "name": "ParameterList",
+                "src": "310:16:1"
+              },
+              {
+                "attributes": {
+                  "parameters": [
+                    null
+                  ]
+                },
+                "children": [],
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+                "id": 233,
+=======
+                "id": 190,
+>>>>>>> 9667ddf (Added donation contract)
+=======
+                "id": 514,
+>>>>>>> f68268d (Updated donation contract and donation.test.js file)
+=======
+                "id": 514,
+>>>>>>> 49de1b08315bc443ef67a3f7dc0ece79fb113b1d
+                "name": "ParameterList",
+                "src": "345:0:1"
+              },
+              {
+                "attributes": {
+                  "arguments": null
+                },
+                "children": [
+                  {
+                    "attributes": {
+                      "argumentTypes": null,
+                      "overloadedDeclarations": [
+                        null
+                      ],
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+                      "referencedDeclaration": 218,
+                      "type": "modifier ()",
+                      "value": "restricted"
+                    },
+                    "id": 231,
+=======
+                      "referencedDeclaration": 175,
+                      "type": "modifier ()",
+                      "value": "restricted"
+                    },
+                    "id": 188,
+>>>>>>> 9667ddf (Added donation contract)
+=======
+                      "referencedDeclaration": 499,
+                      "type": "modifier ()",
+                      "value": "restricted"
+                    },
+                    "id": 512,
+>>>>>>> f68268d (Updated donation contract and donation.test.js file)
+=======
+                      "referencedDeclaration": 499,
+                      "type": "modifier ()",
+                      "value": "restricted"
+                    },
+                    "id": 512,
+>>>>>>> 49de1b08315bc443ef67a3f7dc0ece79fb113b1d
+                    "name": "Identifier",
+                    "src": "334:10:1"
+                  }
+                ],
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+                "id": 232,
+=======
+                "id": 189,
+>>>>>>> 9667ddf (Added donation contract)
+=======
+                "id": 513,
+>>>>>>> f68268d (Updated donation contract and donation.test.js file)
+=======
+                "id": 513,
+>>>>>>> 49de1b08315bc443ef67a3f7dc0ece79fb113b1d
+                "name": "ModifierInvocation",
+                "src": "334:10:1"
+              },
+              {
+                "children": [
+                  {
+                    "children": [
+                      {
+                        "attributes": {
+                          "argumentTypes": null,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": false,
+                          "lValueRequested": false,
+                          "operator": "=",
+                          "type": "uint256"
+                        },
+                        "children": [
+                          {
+                            "attributes": {
+                              "argumentTypes": null,
+                              "overloadedDeclarations": [
+                                null
+                              ],
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+                              "referencedDeclaration": 209,
+                              "type": "uint256",
+                              "value": "last_completed_migration"
+                            },
+                            "id": 234,
+=======
+                              "referencedDeclaration": 166,
+                              "type": "uint256",
+                              "value": "last_completed_migration"
+                            },
+                            "id": 191,
+>>>>>>> 9667ddf (Added donation contract)
+=======
+                              "referencedDeclaration": 490,
+                              "type": "uint256",
+                              "value": "last_completed_migration"
+                            },
+                            "id": 515,
+>>>>>>> f68268d (Updated donation contract and donation.test.js file)
+=======
+                              "referencedDeclaration": 490,
+                              "type": "uint256",
+                              "value": "last_completed_migration"
+                            },
+                            "id": 515,
+>>>>>>> 49de1b08315bc443ef67a3f7dc0ece79fb113b1d
+                            "name": "Identifier",
+                            "src": "352:24:1"
+                          },
+                          {
+                            "attributes": {
+                              "argumentTypes": null,
+                              "overloadedDeclarations": [
+                                null
+                              ],
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+                              "referencedDeclaration": 229,
+                              "type": "uint256",
+                              "value": "completed"
+                            },
+                            "id": 235,
+=======
+                              "referencedDeclaration": 186,
+                              "type": "uint256",
+                              "value": "completed"
+                            },
+                            "id": 192,
+>>>>>>> 9667ddf (Added donation contract)
+=======
+                              "referencedDeclaration": 510,
+                              "type": "uint256",
+                              "value": "completed"
+                            },
+                            "id": 516,
+>>>>>>> f68268d (Updated donation contract and donation.test.js file)
+=======
+                              "referencedDeclaration": 510,
+                              "type": "uint256",
+                              "value": "completed"
+                            },
+                            "id": 516,
+>>>>>>> 49de1b08315bc443ef67a3f7dc0ece79fb113b1d
+                            "name": "Identifier",
+                            "src": "379:9:1"
+                          }
+                        ],
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+                        "id": 236,
+=======
+                        "id": 193,
+>>>>>>> 9667ddf (Added donation contract)
+=======
+                        "id": 517,
+>>>>>>> f68268d (Updated donation contract and donation.test.js file)
+=======
+                        "id": 517,
+>>>>>>> 49de1b08315bc443ef67a3f7dc0ece79fb113b1d
+                        "name": "Assignment",
+                        "src": "352:36:1"
+                      }
+                    ],
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+                    "id": 237,
+=======
+                    "id": 194,
+>>>>>>> 9667ddf (Added donation contract)
+=======
+                    "id": 518,
+>>>>>>> f68268d (Updated donation contract and donation.test.js file)
+=======
+                    "id": 518,
+>>>>>>> 49de1b08315bc443ef67a3f7dc0ece79fb113b1d
+                    "name": "ExpressionStatement",
+                    "src": "352:36:1"
+                  }
+                ],
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+                "id": 238,
+=======
+                "id": 195,
+>>>>>>> 9667ddf (Added donation contract)
+=======
+                "id": 519,
+>>>>>>> f68268d (Updated donation contract and donation.test.js file)
+=======
+                "id": 519,
+>>>>>>> 49de1b08315bc443ef67a3f7dc0ece79fb113b1d
+                "name": "Block",
+                "src": "345:49:1"
+              }
+            ],
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+            "id": 239,
+=======
+            "id": 196,
+>>>>>>> 9667ddf (Added donation contract)
+=======
+            "id": 520,
+>>>>>>> f68268d (Updated donation contract and donation.test.js file)
+=======
+            "id": 520,
+>>>>>>> 49de1b08315bc443ef67a3f7dc0ece79fb113b1d
+            "name": "FunctionDefinition",
+            "src": "289:105:1"
+          }
+        ],
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        "id": 240,
+=======
+        "id": 197,
+>>>>>>> 9667ddf (Added donation contract)
+=======
+        "id": 521,
+>>>>>>> f68268d (Updated donation contract and donation.test.js file)
+=======
+        "id": 521,
+>>>>>>> 49de1b08315bc443ef67a3f7dc0ece79fb113b1d
+        "name": "ContractDefinition",
+        "src": "71:326:1"
+      }
+    ],
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    "id": 241,
+=======
+    "id": 198,
+>>>>>>> 9667ddf (Added donation contract)
+    "name": "SourceUnit",
+=======
         "id": 162,
         "literals": [
           "solidity",
@@ -880,22 +2448,70 @@
         "src": "71:326:1"
       }
     ],
+>>>>>>> 91a6d1d (donate function)
+=======
+=======
+>>>>>>> 49de1b08315bc443ef67a3f7dc0ece79fb113b1d
+    "id": 522,
+    "name": "SourceUnit",
+>>>>>>> f68268d (Updated donation contract and donation.test.js file)
     "src": "33:366:1"
   },
   "compiler": {
     "name": "solc",
+<<<<<<< HEAD
     "version": "0.5.0+commit.1d4f565a.Emscripten.clang"
+=======
+    "version": "0.5.16+commit.9c3226ce.Emscripten.clang"
+>>>>>>> f68268d (Updated donation contract and donation.test.js file)
   },
   "networks": {
     "5777": {
       "events": {},
       "links": {},
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+      "address": "0x14af3CC2050f0f00bd2BD7679F6F2f7DaacaBbE0",
+      "transactionHash": "0xc225707d2bd8ef30c3c49e6e19694ca9e7d872a8b8e23d90fadc9e865b230d2e"
+    }
+  },
+  "schemaVersion": "3.4.4",
+  "updatedAt": "2022-01-12T12:30:02.301Z",
+=======
+      "address": "0x560EEc4F25D4442c77ECc87C35ed51Eb26B732f3",
+      "transactionHash": "0x5b20e0a0cf476a5b38564a5127291161d004b8c7c3f115bc7ebe8997419d6311"
+    }
+  },
+  "schemaVersion": "3.4.4",
+  "updatedAt": "2022-01-11T09:45:50.697Z",
+>>>>>>> 9667ddf (Added donation contract)
+  "networkType": "ethereum",
+=======
       "address": "0x3765456DFD345FAe0Af2eDdFD99249ab842f26E1",
       "transactionHash": "0xde27456d070b36195931c5a25d7c74a3f85df35aabca9778f1340eaae9df2977"
     }
   },
   "schemaVersion": "3.0.1",
   "updatedAt": "2022-01-12T12:13:22.339Z",
+>>>>>>> 91a6d1d (donate function)
+=======
+      "address": "0x6bA053712a64EFc71721bfF3adbc39A9e3f0EBd2",
+      "transactionHash": "0x6c94adf75e582ca2333a08ea5fb9ef0180b2675a40ea352f8d7a8a47ff6fcb97"
+    }
+  },
+  "schemaVersion": "3.4.4",
+  "updatedAt": "2022-01-13T13:51:22.855Z",
+>>>>>>> f68268d (Updated donation contract and donation.test.js file)
+=======
+      "address": "0x6bA053712a64EFc71721bfF3adbc39A9e3f0EBd2",
+      "transactionHash": "0x6c94adf75e582ca2333a08ea5fb9ef0180b2675a40ea352f8d7a8a47ff6fcb97"
+    }
+  },
+  "schemaVersion": "3.4.4",
+  "updatedAt": "2022-01-13T13:51:22.855Z",
+>>>>>>> 49de1b08315bc443ef67a3f7dc0ece79fb113b1d
   "devdoc": {
     "methods": {}
   },
