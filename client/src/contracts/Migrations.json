@@ -99,13 +99,18 @@
       "Migrations": [
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         240
+=======
+        521
+>>>>>>> 49de1b08315bc443ef67a3f7dc0ece79fb113b1d
       ]
     },
-    "id": 241,
+    "id": 522,
     "nodeType": "SourceUnit",
     "nodes": [
       {
+<<<<<<< HEAD
         "id": 205,
 =======
         197
@@ -124,6 +129,9 @@
 =======
         "id": 486,
 >>>>>>> f68268d (Updated donation contract and donation.test.js file)
+=======
+        "id": 486,
+>>>>>>> 49de1b08315bc443ef67a3f7dc0ece79fb113b1d
         "literals": [
           "solidity",
           ">=",
@@ -145,6 +153,7 @@
         "id": 521,
         "linearizedBaseContracts": [
 <<<<<<< HEAD
+<<<<<<< HEAD
           240
 =======
         "id": 197,
@@ -154,6 +163,9 @@
 =======
           521
 >>>>>>> f68268d (Updated donation contract and donation.test.js file)
+=======
+          521
+>>>>>>> 49de1b08315bc443ef67a3f7dc0ece79fb113b1d
         ],
         "name": "Migrations",
         "nodeType": "ContractDefinition",
@@ -164,11 +176,15 @@
             "name": "owner",
             "nodeType": "VariableDeclaration",
 <<<<<<< HEAD
+<<<<<<< HEAD
             "scope": 197,
 >>>>>>> 9667ddf (Added donation contract)
 =======
             "scope": 521,
 >>>>>>> f68268d (Updated donation contract and donation.test.js file)
+=======
+            "scope": 521,
+>>>>>>> 49de1b08315bc443ef67a3f7dc0ece79fb113b1d
             "src": "96:20:1",
             "stateVariable": true,
             "storageLocation": "default",
@@ -179,6 +195,7 @@
             "typeName": {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
               "id": 206,
 =======
               "id": 163,
@@ -186,6 +203,9 @@
 =======
               "id": 487,
 >>>>>>> f68268d (Updated donation contract and donation.test.js file)
+=======
+              "id": 487,
+>>>>>>> 49de1b08315bc443ef67a3f7dc0ece79fb113b1d
               "name": "address",
               "nodeType": "ElementaryTypeName",
               "src": "96:7:1",
@@ -204,6 +224,7 @@
             "name": "last_completed_migration",
             "nodeType": "VariableDeclaration",
 <<<<<<< HEAD
+<<<<<<< HEAD
             "scope": 240,
 =======
             "id": 166,
@@ -214,6 +235,9 @@
 =======
             "scope": 521,
 >>>>>>> f68268d (Updated donation contract and donation.test.js file)
+=======
+            "scope": 521,
+>>>>>>> 49de1b08315bc443ef67a3f7dc0ece79fb113b1d
             "src": "121:36:1",
             "stateVariable": true,
             "storageLocation": "default",
@@ -224,6 +248,7 @@
             "typeName": {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
               "id": 208,
 =======
               "id": 165,
@@ -231,6 +256,9 @@
 =======
               "id": 489,
 >>>>>>> f68268d (Updated donation contract and donation.test.js file)
+=======
+              "id": 489,
+>>>>>>> 49de1b08315bc443ef67a3f7dc0ece79fb113b1d
               "name": "uint",
               "nodeType": "ElementaryTypeName",
               "src": "121:4:1",
@@ -246,6 +274,7 @@
             "body": {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
               "id": 217,
 =======
               "id": 174,
@@ -253,6 +282,9 @@
 =======
               "id": 498,
 >>>>>>> f68268d (Updated donation contract and donation.test.js file)
+=======
+              "id": 498,
+>>>>>>> 49de1b08315bc443ef67a3f7dc0ece79fb113b1d
               "nodeType": "Block",
               "src": "186:39:1",
               "statements": [
@@ -265,6 +297,7 @@
                     },
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     "id": 214,
 =======
                     "id": 171,
@@ -272,6 +305,9 @@
 =======
                     "id": 495,
 >>>>>>> f68268d (Updated donation contract and donation.test.js file)
+=======
+                    "id": 495,
+>>>>>>> 49de1b08315bc443ef67a3f7dc0ece79fb113b1d
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -285,17 +321,22 @@
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
 <<<<<<< HEAD
+<<<<<<< HEAD
                         "referencedDeclaration": 235,
 >>>>>>> 9667ddf (Added donation contract)
 =======
                         "referencedDeclaration": 559,
 >>>>>>> f68268d (Updated donation contract and donation.test.js file)
+=======
+                        "referencedDeclaration": 559,
+>>>>>>> 49de1b08315bc443ef67a3f7dc0ece79fb113b1d
                         "src": "197:3:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_magic_message",
                           "typeString": "msg"
                         }
                       },
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
                       "id": 212,
@@ -305,6 +346,9 @@
 =======
                       "id": 493,
 >>>>>>> f68268d (Updated donation contract and donation.test.js file)
+=======
+                      "id": 493,
+>>>>>>> 49de1b08315bc443ef67a3f7dc0ece79fb113b1d
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
@@ -327,11 +371,15 @@
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
 <<<<<<< HEAD
+<<<<<<< HEAD
                       "referencedDeclaration": 164,
 >>>>>>> 9667ddf (Added donation contract)
 =======
                       "referencedDeclaration": 488,
 >>>>>>> f68268d (Updated donation contract and donation.test.js file)
+=======
+                      "referencedDeclaration": 488,
+>>>>>>> 49de1b08315bc443ef67a3f7dc0ece79fb113b1d
                       "src": "211:5:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_address",
@@ -350,6 +398,7 @@
                   "src": "193:26:1",
                   "trueBody": {
 <<<<<<< HEAD
+<<<<<<< HEAD
                     "id": 215,
 =======
                   "id": 173,
@@ -361,6 +410,9 @@
 =======
                     "id": 496,
 >>>>>>> f68268d (Updated donation contract and donation.test.js file)
+=======
+                    "id": 496,
+>>>>>>> 49de1b08315bc443ef67a3f7dc0ece79fb113b1d
                     "nodeType": "PlaceholderStatement",
                     "src": "218:1:1"
                   }
@@ -373,6 +425,7 @@
             "nodeType": "ModifierDefinition",
             "parameters": {
 <<<<<<< HEAD
+<<<<<<< HEAD
               "id": 210,
 =======
             "id": 175,
@@ -384,6 +437,9 @@
 =======
               "id": 491,
 >>>>>>> f68268d (Updated donation contract and donation.test.js file)
+=======
+              "id": 491,
+>>>>>>> 49de1b08315bc443ef67a3f7dc0ece79fb113b1d
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "183:2:1"
@@ -395,6 +451,7 @@
             "body": {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
               "id": 226,
 =======
               "id": 183,
@@ -402,12 +459,16 @@
 =======
               "id": 507,
 >>>>>>> f68268d (Updated donation contract and donation.test.js file)
+=======
+              "id": 507,
+>>>>>>> 49de1b08315bc443ef67a3f7dc0ece79fb113b1d
               "nodeType": "Block",
               "src": "252:31:1",
               "statements": [
                 {
                   "expression": {
                     "argumentTypes": null,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
                     "id": 224,
@@ -417,6 +478,9 @@
 =======
                     "id": 505,
 >>>>>>> f68268d (Updated donation contract and donation.test.js file)
+=======
+                    "id": 505,
+>>>>>>> 49de1b08315bc443ef67a3f7dc0ece79fb113b1d
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -428,11 +492,15 @@
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
 <<<<<<< HEAD
+<<<<<<< HEAD
                       "referencedDeclaration": 164,
 >>>>>>> 9667ddf (Added donation contract)
 =======
                       "referencedDeclaration": 488,
 >>>>>>> f68268d (Updated donation contract and donation.test.js file)
+=======
+                      "referencedDeclaration": 488,
+>>>>>>> 49de1b08315bc443ef67a3f7dc0ece79fb113b1d
                       "src": "259:5:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_address",
@@ -450,17 +518,22 @@
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
 <<<<<<< HEAD
+<<<<<<< HEAD
                         "referencedDeclaration": 235,
 >>>>>>> 9667ddf (Added donation contract)
 =======
                         "referencedDeclaration": 559,
 >>>>>>> f68268d (Updated donation contract and donation.test.js file)
+=======
+                        "referencedDeclaration": 559,
+>>>>>>> 49de1b08315bc443ef67a3f7dc0ece79fb113b1d
                         "src": "267:3:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_magic_message",
                           "typeString": "msg"
                         }
                       },
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
                       "id": 223,
@@ -470,6 +543,9 @@
 =======
                       "id": 504,
 >>>>>>> f68268d (Updated donation contract and donation.test.js file)
+=======
+                      "id": 504,
+>>>>>>> 49de1b08315bc443ef67a3f7dc0ece79fb113b1d
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
@@ -491,6 +567,7 @@
                   },
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                   "id": 225,
 =======
                   "id": 182,
@@ -498,12 +575,16 @@
 =======
                   "id": 506,
 >>>>>>> f68268d (Updated donation contract and donation.test.js file)
+=======
+                  "id": 506,
+>>>>>>> 49de1b08315bc443ef67a3f7dc0ece79fb113b1d
                   "nodeType": "ExpressionStatement",
                   "src": "259:18:1"
                 }
               ]
             },
             "documentation": null,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
             "id": 227,
@@ -513,12 +594,16 @@
 =======
             "id": 508,
 >>>>>>> f68268d (Updated donation contract and donation.test.js file)
+=======
+            "id": 508,
+>>>>>>> 49de1b08315bc443ef67a3f7dc0ece79fb113b1d
             "implemented": true,
             "kind": "constructor",
             "modifiers": [],
             "name": "",
             "nodeType": "FunctionDefinition",
             "parameters": {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
               "id": 219,
@@ -528,11 +613,15 @@
 =======
               "id": 500,
 >>>>>>> f68268d (Updated donation contract and donation.test.js file)
+=======
+              "id": 500,
+>>>>>>> 49de1b08315bc443ef67a3f7dc0ece79fb113b1d
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "242:2:1"
             },
             "returnParameters": {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
               "id": 220,
@@ -542,10 +631,14 @@
 =======
               "id": 501,
 >>>>>>> f68268d (Updated donation contract and donation.test.js file)
+=======
+              "id": 501,
+>>>>>>> 49de1b08315bc443ef67a3f7dc0ece79fb113b1d
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "252:0:1"
             },
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
             "scope": 240,
@@ -555,6 +648,9 @@
 =======
             "scope": 521,
 >>>>>>> f68268d (Updated donation contract and donation.test.js file)
+=======
+            "scope": 521,
+>>>>>>> 49de1b08315bc443ef67a3f7dc0ece79fb113b1d
             "src": "231:52:1",
             "stateMutability": "nonpayable",
             "superFunction": null,
@@ -564,6 +660,7 @@
             "body": {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
               "id": 238,
 =======
               "id": 195,
@@ -571,12 +668,16 @@
 =======
               "id": 519,
 >>>>>>> f68268d (Updated donation contract and donation.test.js file)
+=======
+              "id": 519,
+>>>>>>> 49de1b08315bc443ef67a3f7dc0ece79fb113b1d
               "nodeType": "Block",
               "src": "345:49:1",
               "statements": [
                 {
                   "expression": {
                     "argumentTypes": null,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
                     "id": 236,
@@ -586,6 +687,9 @@
 =======
                     "id": 517,
 >>>>>>> f68268d (Updated donation contract and donation.test.js file)
+=======
+                    "id": 517,
+>>>>>>> 49de1b08315bc443ef67a3f7dc0ece79fb113b1d
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -597,11 +701,15 @@
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
 <<<<<<< HEAD
+<<<<<<< HEAD
                       "referencedDeclaration": 166,
 >>>>>>> 9667ddf (Added donation contract)
 =======
                       "referencedDeclaration": 490,
 >>>>>>> f68268d (Updated donation contract and donation.test.js file)
+=======
+                      "referencedDeclaration": 490,
+>>>>>>> 49de1b08315bc443ef67a3f7dc0ece79fb113b1d
                       "src": "352:24:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
@@ -617,11 +725,15 @@
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
 <<<<<<< HEAD
+<<<<<<< HEAD
                       "referencedDeclaration": 186,
 >>>>>>> 9667ddf (Added donation contract)
 =======
                       "referencedDeclaration": 510,
 >>>>>>> f68268d (Updated donation contract and donation.test.js file)
+=======
+                      "referencedDeclaration": 510,
+>>>>>>> 49de1b08315bc443ef67a3f7dc0ece79fb113b1d
                       "src": "379:9:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
@@ -636,6 +748,7 @@
                   },
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                   "id": 237,
 =======
                   "id": 194,
@@ -643,12 +756,16 @@
 =======
                   "id": 518,
 >>>>>>> f68268d (Updated donation contract and donation.test.js file)
+=======
+                  "id": 518,
+>>>>>>> 49de1b08315bc443ef67a3f7dc0ece79fb113b1d
                   "nodeType": "ExpressionStatement",
                   "src": "352:36:1"
                 }
               ]
             },
             "documentation": null,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
             "id": 239,
@@ -658,6 +775,9 @@
 =======
             "id": 520,
 >>>>>>> f68268d (Updated donation contract and donation.test.js file)
+=======
+            "id": 520,
+>>>>>>> 49de1b08315bc443ef67a3f7dc0ece79fb113b1d
             "implemented": true,
             "kind": "function",
             "modifiers": [
@@ -670,6 +790,7 @@
                   "name": "restricted",
                   "nodeType": "Identifier",
                   "overloadedDeclarations": [],
+<<<<<<< HEAD
 <<<<<<< HEAD
                   "referencedDeclaration": 218,
 =======
@@ -685,6 +806,9 @@
 =======
                   "referencedDeclaration": 499,
 >>>>>>> f68268d (Updated donation contract and donation.test.js file)
+=======
+                  "referencedDeclaration": 499,
+>>>>>>> 49de1b08315bc443ef67a3f7dc0ece79fb113b1d
                   "src": "334:10:1",
                   "typeDescriptions": {
                     "typeIdentifier": "t_modifier$__$",
@@ -700,6 +824,7 @@
             "parameters": {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
               "id": 230,
 =======
               "id": 187,
@@ -707,6 +832,9 @@
 =======
               "id": 511,
 >>>>>>> f68268d (Updated donation contract and donation.test.js file)
+=======
+              "id": 511,
+>>>>>>> 49de1b08315bc443ef67a3f7dc0ece79fb113b1d
               "nodeType": "ParameterList",
               "parameters": [
                 {
@@ -714,6 +842,7 @@
                   "id": 510,
                   "name": "completed",
                   "nodeType": "VariableDeclaration",
+<<<<<<< HEAD
 <<<<<<< HEAD
                   "scope": 239,
 =======
@@ -725,6 +854,9 @@
 =======
                   "scope": 520,
 >>>>>>> f68268d (Updated donation contract and donation.test.js file)
+=======
+                  "scope": 520,
+>>>>>>> 49de1b08315bc443ef67a3f7dc0ece79fb113b1d
                   "src": "311:14:1",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -735,6 +867,7 @@
                   "typeName": {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     "id": 228,
 =======
                     "id": 185,
@@ -742,6 +875,9 @@
 =======
                     "id": 509,
 >>>>>>> f68268d (Updated donation contract and donation.test.js file)
+=======
+                    "id": 509,
+>>>>>>> 49de1b08315bc443ef67a3f7dc0ece79fb113b1d
                     "name": "uint",
                     "nodeType": "ElementaryTypeName",
                     "src": "311:4:1",
@@ -759,6 +895,7 @@
             "returnParameters": {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
               "id": 233,
 =======
               "id": 190,
@@ -766,10 +903,14 @@
 =======
               "id": 514,
 >>>>>>> f68268d (Updated donation contract and donation.test.js file)
+=======
+              "id": 514,
+>>>>>>> 49de1b08315bc443ef67a3f7dc0ece79fb113b1d
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "345:0:1"
             },
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
             "scope": 240,
@@ -779,12 +920,16 @@
 =======
             "scope": 521,
 >>>>>>> f68268d (Updated donation contract and donation.test.js file)
+=======
+            "scope": 521,
+>>>>>>> 49de1b08315bc443ef67a3f7dc0ece79fb113b1d
             "src": "289:105:1",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "public"
           }
         ],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         "scope": 241,
@@ -794,6 +939,9 @@
 =======
         "scope": 522,
 >>>>>>> f68268d (Updated donation contract and donation.test.js file)
+=======
+        "scope": 522,
+>>>>>>> 49de1b08315bc443ef67a3f7dc0ece79fb113b1d
         "src": "71:326:1"
       }
     ],
@@ -806,6 +954,7 @@
         "Migrations": [
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
           240
 =======
           197
@@ -813,6 +962,9 @@
 =======
           521
 >>>>>>> f68268d (Updated donation contract and donation.test.js file)
+=======
+          521
+>>>>>>> 49de1b08315bc443ef67a3f7dc0ece79fb113b1d
         ]
       }
 =======
@@ -841,6 +993,7 @@
         },
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         "id": 205,
 =======
         "id": 162,
@@ -848,6 +1001,9 @@
 =======
         "id": 486,
 >>>>>>> f68268d (Updated donation contract and donation.test.js file)
+=======
+        "id": 486,
+>>>>>>> 49de1b08315bc443ef67a3f7dc0ece79fb113b1d
         "name": "PragmaDirective",
         "src": "33:34:1"
       },
@@ -863,6 +1019,7 @@
           "documentation": null,
           "fullyImplemented": true,
           "linearizedBaseContracts": [
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
             240
@@ -881,12 +1038,19 @@
           "name": "Migrations",
           "scope": 522
 >>>>>>> f68268d (Updated donation contract and donation.test.js file)
+=======
+            521
+          ],
+          "name": "Migrations",
+          "scope": 522
+>>>>>>> 49de1b08315bc443ef67a3f7dc0ece79fb113b1d
         },
         "children": [
           {
             "attributes": {
               "constant": false,
               "name": "owner",
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
               "scope": 240,
@@ -896,6 +1060,9 @@
 =======
               "scope": 521,
 >>>>>>> f68268d (Updated donation contract and donation.test.js file)
+=======
+              "scope": 521,
+>>>>>>> 49de1b08315bc443ef67a3f7dc0ece79fb113b1d
               "stateVariable": true,
               "storageLocation": "default",
               "type": "address",
@@ -911,6 +1078,7 @@
                 },
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "id": 206,
 =======
                 "id": 163,
@@ -918,10 +1086,14 @@
 =======
                 "id": 487,
 >>>>>>> f68268d (Updated donation contract and donation.test.js file)
+=======
+                "id": 487,
+>>>>>>> 49de1b08315bc443ef67a3f7dc0ece79fb113b1d
                 "name": "ElementaryTypeName",
                 "src": "96:7:1"
               }
             ],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
             "id": 207,
@@ -931,6 +1103,9 @@
 =======
             "id": 488,
 >>>>>>> f68268d (Updated donation contract and donation.test.js file)
+=======
+            "id": 488,
+>>>>>>> 49de1b08315bc443ef67a3f7dc0ece79fb113b1d
             "name": "VariableDeclaration",
             "src": "96:20:1"
           },
@@ -940,6 +1115,7 @@
               "name": "last_completed_migration",
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
               "scope": 240,
 =======
               "scope": 197,
@@ -947,6 +1123,9 @@
 =======
               "scope": 521,
 >>>>>>> f68268d (Updated donation contract and donation.test.js file)
+=======
+              "scope": 521,
+>>>>>>> 49de1b08315bc443ef67a3f7dc0ece79fb113b1d
               "stateVariable": true,
               "storageLocation": "default",
               "type": "uint256",
@@ -961,6 +1140,7 @@
                 },
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "id": 208,
 =======
                 "id": 165,
@@ -968,10 +1148,14 @@
 =======
                 "id": 489,
 >>>>>>> f68268d (Updated donation contract and donation.test.js file)
+=======
+                "id": 489,
+>>>>>>> 49de1b08315bc443ef67a3f7dc0ece79fb113b1d
                 "name": "ElementaryTypeName",
                 "src": "121:4:1"
               }
             ],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
             "id": 209,
@@ -981,6 +1165,9 @@
 =======
             "id": 490,
 >>>>>>> f68268d (Updated donation contract and donation.test.js file)
+=======
+            "id": 490,
+>>>>>>> 49de1b08315bc443ef67a3f7dc0ece79fb113b1d
             "name": "VariableDeclaration",
             "src": "121:36:1"
           },
@@ -1000,6 +1187,7 @@
                 "children": [],
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "id": 210,
 =======
                 "id": 167,
@@ -1007,6 +1195,9 @@
 =======
                 "id": 491,
 >>>>>>> f68268d (Updated donation contract and donation.test.js file)
+=======
+                "id": 491,
+>>>>>>> 49de1b08315bc443ef67a3f7dc0ece79fb113b1d
                 "name": "ParameterList",
                 "src": "183:2:1"
               },
@@ -1052,6 +1243,7 @@
                                   ],
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                   "referencedDeclaration": 278,
                                   "type": "msg",
                                   "value": "msg"
@@ -1071,10 +1263,18 @@
                                 },
                                 "id": 492,
 >>>>>>> f68268d (Updated donation contract and donation.test.js file)
+=======
+                                  "referencedDeclaration": 559,
+                                  "type": "msg",
+                                  "value": "msg"
+                                },
+                                "id": 492,
+>>>>>>> 49de1b08315bc443ef67a3f7dc0ece79fb113b1d
                                 "name": "Identifier",
                                 "src": "197:3:1"
                               }
                             ],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
                             "id": 212,
@@ -1084,6 +1284,9 @@
 =======
                             "id": 493,
 >>>>>>> f68268d (Updated donation contract and donation.test.js file)
+=======
+                            "id": 493,
+>>>>>>> 49de1b08315bc443ef67a3f7dc0ece79fb113b1d
                             "name": "MemberAccess",
                             "src": "197:10:1"
                           },
@@ -1093,6 +1296,7 @@
                               "overloadedDeclarations": [
                                 null
                               ],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
                               "referencedDeclaration": 207,
@@ -1114,10 +1318,18 @@
                             },
                             "id": 494,
 >>>>>>> f68268d (Updated donation contract and donation.test.js file)
+=======
+                              "referencedDeclaration": 488,
+                              "type": "address",
+                              "value": "owner"
+                            },
+                            "id": 494,
+>>>>>>> 49de1b08315bc443ef67a3f7dc0ece79fb113b1d
                             "name": "Identifier",
                             "src": "211:5:1"
                           }
                         ],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
                         "id": 214,
@@ -1127,10 +1339,14 @@
 =======
                         "id": 495,
 >>>>>>> f68268d (Updated donation contract and donation.test.js file)
+=======
+                        "id": 495,
+>>>>>>> 49de1b08315bc443ef67a3f7dc0ece79fb113b1d
                         "name": "BinaryOperation",
                         "src": "197:19:1"
                       },
                       {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
                         "id": 215,
@@ -1140,10 +1356,14 @@
 =======
                         "id": 496,
 >>>>>>> f68268d (Updated donation contract and donation.test.js file)
+=======
+                        "id": 496,
+>>>>>>> 49de1b08315bc443ef67a3f7dc0ece79fb113b1d
                         "name": "PlaceholderStatement",
                         "src": "218:1:1"
                       }
                     ],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
                     "id": 216,
@@ -1153,10 +1373,14 @@
 =======
                     "id": 497,
 >>>>>>> f68268d (Updated donation contract and donation.test.js file)
+=======
+                    "id": 497,
+>>>>>>> 49de1b08315bc443ef67a3f7dc0ece79fb113b1d
                     "name": "IfStatement",
                     "src": "193:26:1"
                   }
                 ],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
                 "id": 217,
@@ -1166,10 +1390,14 @@
 =======
                 "id": 498,
 >>>>>>> f68268d (Updated donation contract and donation.test.js file)
+=======
+                "id": 498,
+>>>>>>> 49de1b08315bc443ef67a3f7dc0ece79fb113b1d
                 "name": "Block",
                 "src": "186:39:1"
               }
             ],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
             "id": 218,
@@ -1179,6 +1407,9 @@
 =======
             "id": 499,
 >>>>>>> f68268d (Updated donation contract and donation.test.js file)
+=======
+            "id": 499,
+>>>>>>> 49de1b08315bc443ef67a3f7dc0ece79fb113b1d
             "name": "ModifierDefinition",
             "src": "164:61:1"
           },
@@ -1194,6 +1425,7 @@
               "name": "",
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
               "scope": 240,
 =======
               "scope": 197,
@@ -1201,6 +1433,9 @@
 =======
               "scope": 521,
 >>>>>>> f68268d (Updated donation contract and donation.test.js file)
+=======
+              "scope": 521,
+>>>>>>> 49de1b08315bc443ef67a3f7dc0ece79fb113b1d
               "stateMutability": "nonpayable",
               "superFunction": null,
               "visibility": "public"
@@ -1215,6 +1450,7 @@
                 "children": [],
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "id": 219,
 =======
                 "id": 176,
@@ -1222,6 +1458,9 @@
 =======
                 "id": 500,
 >>>>>>> f68268d (Updated donation contract and donation.test.js file)
+=======
+                "id": 500,
+>>>>>>> 49de1b08315bc443ef67a3f7dc0ece79fb113b1d
                 "name": "ParameterList",
                 "src": "242:2:1"
               },
@@ -1234,6 +1473,7 @@
                 "children": [],
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "id": 220,
 =======
                 "id": 177,
@@ -1241,6 +1481,9 @@
 =======
                 "id": 501,
 >>>>>>> f68268d (Updated donation contract and donation.test.js file)
+=======
+                "id": 501,
+>>>>>>> 49de1b08315bc443ef67a3f7dc0ece79fb113b1d
                 "name": "ParameterList",
                 "src": "252:0:1"
               },
@@ -1267,6 +1510,7 @@
                               ],
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                               "referencedDeclaration": 207,
                               "type": "address",
                               "value": "owner"
@@ -1286,6 +1530,13 @@
                             },
                             "id": 502,
 >>>>>>> f68268d (Updated donation contract and donation.test.js file)
+=======
+                              "referencedDeclaration": 488,
+                              "type": "address",
+                              "value": "owner"
+                            },
+                            "id": 502,
+>>>>>>> 49de1b08315bc443ef67a3f7dc0ece79fb113b1d
                             "name": "Identifier",
                             "src": "259:5:1"
                           },
@@ -1309,6 +1560,7 @@
                                   ],
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                   "referencedDeclaration": 278,
                                   "type": "msg",
                                   "value": "msg"
@@ -1328,10 +1580,18 @@
                                 },
                                 "id": 503,
 >>>>>>> f68268d (Updated donation contract and donation.test.js file)
+=======
+                                  "referencedDeclaration": 559,
+                                  "type": "msg",
+                                  "value": "msg"
+                                },
+                                "id": 503,
+>>>>>>> 49de1b08315bc443ef67a3f7dc0ece79fb113b1d
                                 "name": "Identifier",
                                 "src": "267:3:1"
                               }
                             ],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
                             "id": 223,
@@ -1341,10 +1601,14 @@
 =======
                             "id": 504,
 >>>>>>> f68268d (Updated donation contract and donation.test.js file)
+=======
+                            "id": 504,
+>>>>>>> 49de1b08315bc443ef67a3f7dc0ece79fb113b1d
                             "name": "MemberAccess",
                             "src": "267:10:1"
                           }
                         ],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
                         "id": 224,
@@ -1354,10 +1618,14 @@
 =======
                         "id": 505,
 >>>>>>> f68268d (Updated donation contract and donation.test.js file)
+=======
+                        "id": 505,
+>>>>>>> 49de1b08315bc443ef67a3f7dc0ece79fb113b1d
                         "name": "Assignment",
                         "src": "259:18:1"
                       }
                     ],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
                     "id": 225,
@@ -1367,10 +1635,14 @@
 =======
                     "id": 506,
 >>>>>>> f68268d (Updated donation contract and donation.test.js file)
+=======
+                    "id": 506,
+>>>>>>> 49de1b08315bc443ef67a3f7dc0ece79fb113b1d
                     "name": "ExpressionStatement",
                     "src": "259:18:1"
                   }
                 ],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
                 "id": 226,
@@ -1380,10 +1652,14 @@
 =======
                 "id": 507,
 >>>>>>> f68268d (Updated donation contract and donation.test.js file)
+=======
+                "id": 507,
+>>>>>>> 49de1b08315bc443ef67a3f7dc0ece79fb113b1d
                 "name": "Block",
                 "src": "252:31:1"
               }
             ],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
             "id": 227,
@@ -1393,6 +1669,9 @@
 =======
             "id": 508,
 >>>>>>> f68268d (Updated donation contract and donation.test.js file)
+=======
+            "id": 508,
+>>>>>>> 49de1b08315bc443ef67a3f7dc0ece79fb113b1d
             "name": "FunctionDefinition",
             "src": "231:52:1"
           },
@@ -1405,6 +1684,7 @@
               "name": "setCompleted",
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
               "scope": 240,
 =======
               "scope": 197,
@@ -1412,6 +1692,9 @@
 =======
               "scope": 521,
 >>>>>>> f68268d (Updated donation contract and donation.test.js file)
+=======
+              "scope": 521,
+>>>>>>> 49de1b08315bc443ef67a3f7dc0ece79fb113b1d
               "stateMutability": "nonpayable",
               "superFunction": null,
               "visibility": "public"
@@ -1425,6 +1708,7 @@
                       "name": "completed",
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                       "scope": 239,
 =======
                       "scope": 196,
@@ -1432,6 +1716,9 @@
 =======
                       "scope": 520,
 >>>>>>> f68268d (Updated donation contract and donation.test.js file)
+=======
+                      "scope": 520,
+>>>>>>> 49de1b08315bc443ef67a3f7dc0ece79fb113b1d
                       "stateVariable": false,
                       "storageLocation": "default",
                       "type": "uint256",
@@ -1446,6 +1733,7 @@
                         },
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         "id": 228,
 =======
                         "id": 185,
@@ -1453,10 +1741,14 @@
 =======
                         "id": 509,
 >>>>>>> f68268d (Updated donation contract and donation.test.js file)
+=======
+                        "id": 509,
+>>>>>>> 49de1b08315bc443ef67a3f7dc0ece79fb113b1d
                         "name": "ElementaryTypeName",
                         "src": "311:4:1"
                       }
                     ],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
                     "id": 229,
@@ -1466,10 +1758,14 @@
 =======
                     "id": 510,
 >>>>>>> f68268d (Updated donation contract and donation.test.js file)
+=======
+                    "id": 510,
+>>>>>>> 49de1b08315bc443ef67a3f7dc0ece79fb113b1d
                     "name": "VariableDeclaration",
                     "src": "311:14:1"
                   }
                 ],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
                 "id": 230,
@@ -1479,6 +1775,9 @@
 =======
                 "id": 511,
 >>>>>>> f68268d (Updated donation contract and donation.test.js file)
+=======
+                "id": 511,
+>>>>>>> 49de1b08315bc443ef67a3f7dc0ece79fb113b1d
                 "name": "ParameterList",
                 "src": "310:16:1"
               },
@@ -1491,6 +1790,7 @@
                 "children": [],
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "id": 233,
 =======
                 "id": 190,
@@ -1498,6 +1798,9 @@
 =======
                 "id": 514,
 >>>>>>> f68268d (Updated donation contract and donation.test.js file)
+=======
+                "id": 514,
+>>>>>>> 49de1b08315bc443ef67a3f7dc0ece79fb113b1d
                 "name": "ParameterList",
                 "src": "345:0:1"
               },
@@ -1512,6 +1815,7 @@
                       "overloadedDeclarations": [
                         null
                       ],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
                       "referencedDeclaration": 218,
@@ -1533,10 +1837,18 @@
                     },
                     "id": 512,
 >>>>>>> f68268d (Updated donation contract and donation.test.js file)
+=======
+                      "referencedDeclaration": 499,
+                      "type": "modifier ()",
+                      "value": "restricted"
+                    },
+                    "id": 512,
+>>>>>>> 49de1b08315bc443ef67a3f7dc0ece79fb113b1d
                     "name": "Identifier",
                     "src": "334:10:1"
                   }
                 ],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
                 "id": 232,
@@ -1546,6 +1858,9 @@
 =======
                 "id": 513,
 >>>>>>> f68268d (Updated donation contract and donation.test.js file)
+=======
+                "id": 513,
+>>>>>>> 49de1b08315bc443ef67a3f7dc0ece79fb113b1d
                 "name": "ModifierInvocation",
                 "src": "334:10:1"
               },
@@ -1572,6 +1887,7 @@
                               ],
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                               "referencedDeclaration": 209,
                               "type": "uint256",
                               "value": "last_completed_migration"
@@ -1591,6 +1907,13 @@
                             },
                             "id": 515,
 >>>>>>> f68268d (Updated donation contract and donation.test.js file)
+=======
+                              "referencedDeclaration": 490,
+                              "type": "uint256",
+                              "value": "last_completed_migration"
+                            },
+                            "id": 515,
+>>>>>>> 49de1b08315bc443ef67a3f7dc0ece79fb113b1d
                             "name": "Identifier",
                             "src": "352:24:1"
                           },
@@ -1600,6 +1923,7 @@
                               "overloadedDeclarations": [
                                 null
                               ],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
                               "referencedDeclaration": 229,
@@ -1621,10 +1945,18 @@
                             },
                             "id": 516,
 >>>>>>> f68268d (Updated donation contract and donation.test.js file)
+=======
+                              "referencedDeclaration": 510,
+                              "type": "uint256",
+                              "value": "completed"
+                            },
+                            "id": 516,
+>>>>>>> 49de1b08315bc443ef67a3f7dc0ece79fb113b1d
                             "name": "Identifier",
                             "src": "379:9:1"
                           }
                         ],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
                         "id": 236,
@@ -1634,10 +1966,14 @@
 =======
                         "id": 517,
 >>>>>>> f68268d (Updated donation contract and donation.test.js file)
+=======
+                        "id": 517,
+>>>>>>> 49de1b08315bc443ef67a3f7dc0ece79fb113b1d
                         "name": "Assignment",
                         "src": "352:36:1"
                       }
                     ],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
                     "id": 237,
@@ -1647,10 +1983,14 @@
 =======
                     "id": 518,
 >>>>>>> f68268d (Updated donation contract and donation.test.js file)
+=======
+                    "id": 518,
+>>>>>>> 49de1b08315bc443ef67a3f7dc0ece79fb113b1d
                     "name": "ExpressionStatement",
                     "src": "352:36:1"
                   }
                 ],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
                 "id": 238,
@@ -1660,10 +2000,14 @@
 =======
                 "id": 519,
 >>>>>>> f68268d (Updated donation contract and donation.test.js file)
+=======
+                "id": 519,
+>>>>>>> 49de1b08315bc443ef67a3f7dc0ece79fb113b1d
                 "name": "Block",
                 "src": "345:49:1"
               }
             ],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
             "id": 239,
@@ -1673,10 +2017,14 @@
 =======
             "id": 520,
 >>>>>>> f68268d (Updated donation contract and donation.test.js file)
+=======
+            "id": 520,
+>>>>>>> 49de1b08315bc443ef67a3f7dc0ece79fb113b1d
             "name": "FunctionDefinition",
             "src": "289:105:1"
           }
         ],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         "id": 240,
@@ -1686,10 +2034,14 @@
 =======
         "id": 521,
 >>>>>>> f68268d (Updated donation contract and donation.test.js file)
+=======
+        "id": 521,
+>>>>>>> 49de1b08315bc443ef67a3f7dc0ece79fb113b1d
         "name": "ContractDefinition",
         "src": "71:326:1"
       }
     ],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     "id": 241,
@@ -2098,6 +2450,8 @@
     ],
 >>>>>>> 91a6d1d (donate function)
 =======
+=======
+>>>>>>> 49de1b08315bc443ef67a3f7dc0ece79fb113b1d
     "id": 522,
     "name": "SourceUnit",
 >>>>>>> f68268d (Updated donation contract and donation.test.js file)
@@ -2115,6 +2469,7 @@
     "5777": {
       "events": {},
       "links": {},
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2149,6 +2504,14 @@
   "schemaVersion": "3.4.4",
   "updatedAt": "2022-01-13T13:51:22.855Z",
 >>>>>>> f68268d (Updated donation contract and donation.test.js file)
+=======
+      "address": "0x6bA053712a64EFc71721bfF3adbc39A9e3f0EBd2",
+      "transactionHash": "0x6c94adf75e582ca2333a08ea5fb9ef0180b2675a40ea352f8d7a8a47ff6fcb97"
+    }
+  },
+  "schemaVersion": "3.4.4",
+  "updatedAt": "2022-01-13T13:51:22.855Z",
+>>>>>>> 49de1b08315bc443ef67a3f7dc0ece79fb113b1d
   "devdoc": {
     "methods": {}
   },

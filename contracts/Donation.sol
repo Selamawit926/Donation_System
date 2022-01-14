@@ -23,7 +23,6 @@ contract Donation{
     struct DonorsInfo{
         uint id;
         address donoraddr;
-
         string name;
         uint amountDonated;
         string[] history;
