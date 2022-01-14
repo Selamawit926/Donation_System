@@ -16,9 +16,7 @@ class App extends Component {
       // Use web3 to get the user's accounts.
       const accounts = await web3.eth.getAccounts();
       console.log(accounts);
-
-      // console.log(accounts.length);
-      // console.log(accounts[0]);
+      
       // Get the contract instance.
       const networkId = await web3.eth.net.getId();
       const deployedNetwork = Donation.networks[networkId];
@@ -30,12 +28,7 @@ class App extends Component {
       // Set web3, accounts, and contract to the state, and then proceed with an
       // example of interacting with the contract's methods.
       this.setState({ web3:web3, accounts:accounts, contract: instance });
-      // var account= accounts[0];
-      // console.log(account);
-      // await this.state.contract.methods.assignAddresses(account).call();
-      // var address= await this.state.contract.methods.getCharityAddresses().call();
-      // console.log(address);
-      // await this.state.contract.methods.donate(5,{from: account, value: web3.utils.toBN(5* ether)}).call();
+     
      
     } catch (error) {
       // Catch any errors for any of the above operations.
